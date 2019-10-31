@@ -1,0 +1,2020 @@
+
+--- [START 2019-09-20_10-11-45] ----------------------------------------------------------------
+
+	@common.py:  
+	set random seed
+		SEED = 1568945507
+	set cuda environment
+		torch.__version__              = 1.0.1
+		torch.version.cuda             = 10.0
+		torch.backends.cudnn.version() = 7401
+		os['CUDA_VISIBLE_DEVICES']     = 0
+		torch.cuda.device_count()      = 1
+
+
+
+	SEED         = 1568945507
+	PROJECT_PATH = E:\pycharm_project\LB 0.90161\code\dummy_11a\lib
+	__file__     = E:/pycharm_project/LB 0.90161/code/dummy_11a/resent34_cls_01/train.py
+	out_dir      = E:/pycharm_project/LB 0.90161/result/resnet34-cls-full-foldb0-0
+
+** dataset setting **
+
+--- [START 2019-09-20_10-22-12] ----------------------------------------------------------------
+
+	@common.py:  
+	set random seed
+		SEED = 1568946133
+	set cuda environment
+		torch.__version__              = 1.0.1
+		torch.version.cuda             = 10.0
+		torch.backends.cudnn.version() = 7401
+		os['CUDA_VISIBLE_DEVICES']     = 0
+		torch.cuda.device_count()      = 1
+
+
+
+	SEED         = 1568946133
+	PROJECT_PATH = E:\pycharm_project\LB 0.90161\code\dummy_11a\lib
+	__file__     = E:/pycharm_project/LB 0.90161/code/dummy_11a/resent34_cls_01/train.py
+	out_dir      = E:/pycharm_project/LB 0.90161/result/resnet34-cls-full-foldb0-0
+
+** dataset setting **
+
+--- [START 2019-09-20_10-28-42] ----------------------------------------------------------------
+
+	@common.py:  
+	set random seed
+		SEED = 1568946523
+	set cuda environment
+		torch.__version__              = 1.0.1
+		torch.version.cuda             = 10.0
+		torch.backends.cudnn.version() = 7401
+		os['CUDA_VISIBLE_DEVICES']     = 0
+		torch.cuda.device_count()      = 1
+
+
+
+	SEED         = 1568946523
+	PROJECT_PATH = E:\pycharm_project\LB 0.90161\code\dummy_11a\lib
+	__file__     = E:/pycharm_project/LB 0.90161/code/dummy_11a/resent34_cls_01/train.py
+	out_dir      = E:/pycharm_project/LB 0.90161/result/resnet34-cls-full-foldb0-0
+
+** dataset setting **
+
+--- [START 2019-09-20_10-31-53] ----------------------------------------------------------------
+
+	@common.py:  
+	set random seed
+		SEED = 1568946714
+	set cuda environment
+		torch.__version__              = 1.0.1
+		torch.version.cuda             = 10.0
+		torch.backends.cudnn.version() = 7401
+		os['CUDA_VISIBLE_DEVICES']     = 0
+		torch.cuda.device_count()      = 1
+
+
+
+	SEED         = 1568946714
+	PROJECT_PATH = E:\pycharm_project\LB 0.90161\code\dummy_11a\lib
+	__file__     = E:/pycharm_project/LB 0.90161/code/dummy_11a/resent34_cls_01/train.py
+	out_dir      = E:/pycharm_project/LB 0.90161/result/resnet34-cls-full-foldb0-0
+
+** dataset setting **
+
+--- [START 2019-09-20_10-37-53] ----------------------------------------------------------------
+
+	@common.py:  
+	set random seed
+		SEED = 1568947074
+	set cuda environment
+		torch.__version__              = 1.0.1
+		torch.version.cuda             = 10.0
+		torch.backends.cudnn.version() = 7401
+		os['CUDA_VISIBLE_DEVICES']     = 0
+		torch.cuda.device_count()      = 1
+
+
+
+	SEED         = 1568947074
+	PROJECT_PATH = E:\pycharm_project\LB 0.90161\code\dummy_11a\lib
+	__file__     = E:/pycharm_project/LB 0.90161/code/dummy_11a/resent34_cls_01/train.py
+	out_dir      = E:/pycharm_project/LB 0.90161/result/resnet34-cls-full-foldb0-0
+
+** dataset setting **
+
+--- [START 2019-09-20_10-38-47] ----------------------------------------------------------------
+
+	@common.py:  
+	set random seed
+		SEED = 1568947128
+	set cuda environment
+		torch.__version__              = 1.0.1
+		torch.version.cuda             = 10.0
+		torch.backends.cudnn.version() = 7401
+		os['CUDA_VISIBLE_DEVICES']     = 0
+		torch.cuda.device_count()      = 1
+
+
+
+	SEED         = 1568947128
+	PROJECT_PATH = E:\pycharm_project\LB 0.90161\code\dummy_11a\lib
+	__file__     = E:/pycharm_project/LB 0.90161/code/dummy_11a/resent34_cls_01/train.py
+	out_dir      = E:/pycharm_project/LB 0.90161/result/resnet34-cls-full-foldb0-0
+
+** dataset setting **
+
+--- [START 2019-09-20_10-45-34] ----------------------------------------------------------------
+
+	@common.py:  
+	set random seed
+		SEED = 1568947535
+	set cuda environment
+		torch.__version__              = 1.0.1
+		torch.version.cuda             = 10.0
+		torch.backends.cudnn.version() = 7401
+		os['CUDA_VISIBLE_DEVICES']     = 0
+		torch.cuda.device_count()      = 1
+
+
+
+	SEED         = 1568947535
+	PROJECT_PATH = E:\pycharm_project\LB 0.90161\code\dummy_11a\lib
+	__file__     = E:/pycharm_project/LB 0.90161/code/dummy_11a/resent34_cls_01/train.py
+	out_dir      = E:/pycharm_project/LB 0.90161/result/resnet34-cls-full-foldb0-0
+
+** dataset setting **
+batch_size = 20
+train_dataset : 
+	mode    = train
+	split   = ['train_b1_11568.npy']
+	csv     = ['train.csv']
+		len   = 11568
+		num   = 46272
+		neg   = 39737  0.859
+		pos   =  6535  0.141
+		pos1  =   830  0.072  0.127
+		pos2  =   224  0.019  0.034
+		pos3  =  4750  0.411  0.727
+		pos4  =   731  0.063  0.112
+
+valid_dataset : 
+	mode    = train
+	split   = ['valid_b1_1000.npy']
+	csv     = ['train.csv']
+		len   =  1000
+		num   =  4000
+		neg   =  3440  0.860
+		pos   =   560  0.140
+		pos1  =    67  0.067  0.120
+		pos2  =    23  0.023  0.041
+		pos3  =   400  0.400  0.714
+		pos4  =    70  0.070  0.125
+
+
+** net setting **
+	initial_checkpoint = E:/pycharm_project/LB 0.90161/result/resnet34-cls-full-foldb0-0/checkpoint/00007500_model.pth
+<class 'model.Net'>
+
+optimizer
+  SGD (
+Parameter Group 0
+    dampening: 0
+    lr: 0.001
+    momentum: 0.9
+    nesterov: False
+    weight_decay: 0.0001
+)
+schduler
+  NullScheduler
+lr=0.00100 
+
+** start training here! **
+   batch_size=20,  iter_accum=1
+   experiment  = resent34_cls_01
+                      |--------------- VALID-----------------|---------------------- TRAIN/BATCH ------------------
+rate     iter   epoch |  loss    tn, [tp1,tp2,tp3,tp4]       |  loss    tn, [tp1,tp2,tp3,tp4]       | time        
+--------------------------------------------------------------------------------------------------------------------
+
+--- [START 2019-09-20_10-50-13] ----------------------------------------------------------------
+
+	@common.py:  
+	set random seed
+		SEED = 1568947814
+	set cuda environment
+		torch.__version__              = 1.0.1
+		torch.version.cuda             = 10.0
+		torch.backends.cudnn.version() = 7401
+		os['CUDA_VISIBLE_DEVICES']     = 0
+		torch.cuda.device_count()      = 1
+
+
+
+	SEED         = 1568947814
+	PROJECT_PATH = E:\pycharm_project\LB 0.90161\code\dummy_11a\lib
+	__file__     = E:/pycharm_project/LB 0.90161/code/dummy_11a/resent34_cls_01/train.py
+	out_dir      = E:/pycharm_project/LB 0.90161/result/resnet34-cls-full-foldb0-0
+
+** dataset setting **
+batch_size = 20
+train_dataset : 
+	mode    = train
+	split   = ['train_b1_11568.npy']
+	csv     = ['train.csv']
+		len   = 11568
+		num   = 46272
+		neg   = 39737  0.859
+		pos   =  6535  0.141
+		pos1  =   830  0.072  0.127
+		pos2  =   224  0.019  0.034
+		pos3  =  4750  0.411  0.727
+		pos4  =   731  0.063  0.112
+
+valid_dataset : 
+	mode    = train
+	split   = ['valid_b1_1000.npy']
+	csv     = ['train.csv']
+		len   =  1000
+		num   =  4000
+		neg   =  3440  0.860
+		pos   =   560  0.140
+		pos1  =    67  0.067  0.120
+		pos2  =    23  0.023  0.041
+		pos3  =   400  0.400  0.714
+		pos4  =    70  0.070  0.125
+
+
+** net setting **
+	initial_checkpoint = E:/pycharm_project/LB 0.90161/result/resnet34-cls-full-foldb0-0/checkpoint/00007500_model.pth
+<class 'model.Net'>
+
+optimizer
+  SGD (
+Parameter Group 0
+    dampening: 0
+    lr: 0.001
+    momentum: 0.9
+    nesterov: False
+    weight_decay: 0.0001
+)
+schduler
+  NullScheduler
+lr=0.00100 
+
+** start training here! **
+   batch_size=20,  iter_accum=1
+   experiment  = resent34_cls_01
+                      |--------------- VALID-----------------|---------------------- TRAIN/BATCH ------------------
+rate     iter   epoch |  loss    tn, [tp1,tp2,tp3,tp4]       |  loss    tn, [tp1,tp2,tp3,tp4]       | time        
+--------------------------------------------------------------------------------------------------------------------
+
+--- [START 2019-09-20_10-51-43] ----------------------------------------------------------------
+
+	@common.py:  
+	set random seed
+		SEED = 1568947904
+	set cuda environment
+		torch.__version__              = 1.0.1
+		torch.version.cuda             = 10.0
+		torch.backends.cudnn.version() = 7401
+		os['CUDA_VISIBLE_DEVICES']     = 0
+		torch.cuda.device_count()      = 1
+
+
+
+	SEED         = 1568947904
+	PROJECT_PATH = E:\pycharm_project\LB 0.90161\code\dummy_11a\lib
+	__file__     = E:/pycharm_project/LB 0.90161/code/dummy_11a/resent34_cls_01/train.py
+	out_dir      = E:/pycharm_project/LB 0.90161/result/resnet34-cls-full-foldb0-0
+
+** dataset setting **
+batch_size = 20
+train_dataset : 
+	mode    = train
+	split   = ['train_b1_11568.npy']
+	csv     = ['train.csv']
+		len   = 11568
+		num   = 46272
+		neg   = 39737  0.859
+		pos   =  6535  0.141
+		pos1  =   830  0.072  0.127
+		pos2  =   224  0.019  0.034
+		pos3  =  4750  0.411  0.727
+		pos4  =   731  0.063  0.112
+
+valid_dataset : 
+	mode    = train
+	split   = ['valid_b1_1000.npy']
+	csv     = ['train.csv']
+		len   =  1000
+		num   =  4000
+		neg   =  3440  0.860
+		pos   =   560  0.140
+		pos1  =    67  0.067  0.120
+		pos2  =    23  0.023  0.041
+		pos3  =   400  0.400  0.714
+		pos4  =    70  0.070  0.125
+
+
+** net setting **
+	initial_checkpoint = E:/pycharm_project/LB 0.90161/result/resnet34-cls-full-foldb0-0/checkpoint/00007500_model.pth
+<class 'model.Net'>
+
+optimizer
+  SGD (
+Parameter Group 0
+    dampening: 0
+    lr: 0.001
+    momentum: 0.9
+    nesterov: False
+    weight_decay: 0.0001
+)
+schduler
+  NullScheduler
+lr=0.00100 
+
+** start training here! **
+   batch_size=20,  iter_accum=1
+   experiment  = resent34_cls_01
+                      |--------------- VALID-----------------|---------------------- TRAIN/BATCH ------------------
+rate     iter   epoch |  loss    tn, [tp1,tp2,tp3,tp4]       |  loss    tn, [tp1,tp2,tp3,tp4]       | time        
+--------------------------------------------------------------------------------------------------------------------
+
+--- [START 2019-09-20_11-08-21] ----------------------------------------------------------------
+
+	@common.py:  
+	set random seed
+		SEED = 1568948902
+	set cuda environment
+		torch.__version__              = 1.0.1
+		torch.version.cuda             = 10.0
+		torch.backends.cudnn.version() = 7401
+		os['CUDA_VISIBLE_DEVICES']     = 0
+		torch.cuda.device_count()      = 1
+
+
+
+	SEED         = 1568948902
+	PROJECT_PATH = E:\pycharm_project\LB 0.90161\code\dummy_11a\lib
+	__file__     = E:/pycharm_project/LB 0.90161/code/dummy_11a/resent34_cls_01/train.py
+	out_dir      = E:/pycharm_project/LB 0.90161/result/resnet34-cls-full-foldb0-0
+
+** dataset setting **
+batch_size = 20
+train_dataset : 
+	mode    = train
+	split   = ['train_b1_11568.npy']
+	csv     = ['train.csv']
+		len   = 11568
+		num   = 46272
+		neg   = 39737  0.859
+		pos   =  6535  0.141
+		pos1  =   830  0.072  0.127
+		pos2  =   224  0.019  0.034
+		pos3  =  4750  0.411  0.727
+		pos4  =   731  0.063  0.112
+
+valid_dataset : 
+	mode    = train
+	split   = ['valid_b1_1000.npy']
+	csv     = ['train.csv']
+		len   =  1000
+		num   =  4000
+		neg   =  3440  0.860
+		pos   =   560  0.140
+		pos1  =    67  0.067  0.120
+		pos2  =    23  0.023  0.041
+		pos3  =   400  0.400  0.714
+		pos4  =    70  0.070  0.125
+
+
+** net setting **
+	initial_checkpoint = E:/pycharm_project/LB 0.90161/result/resnet34-cls-full-foldb0-0/checkpoint/00007500_model.pth
+<class 'model.Net'>
+
+optimizer
+  SGD (
+Parameter Group 0
+    dampening: 0
+    lr: 0.001
+    momentum: 0.9
+    nesterov: False
+    weight_decay: 0.0001
+)
+schduler
+  NullScheduler
+lr=0.00100 
+
+** start training here! **
+   batch_size=20,  iter_accum=1
+   experiment  = resent34_cls_01
+                      |--------------- VALID-----------------|---------------------- TRAIN/BATCH ------------------
+rate     iter   epoch |  loss    tn, [tp1,tp2,tp3,tp4]       |  loss    tn, [tp1,tp2,tp3,tp4]       | time        
+--------------------------------------------------------------------------------------------------------------------
+
+--- [START 2019-09-20_15-55-40] ----------------------------------------------------------------
+
+	@common.py:  
+	set random seed
+		SEED = 1568966143
+	set cuda environment
+		torch.__version__              = 1.0.1
+		torch.version.cuda             = 10.0
+		torch.backends.cudnn.version() = 7401
+		os['CUDA_VISIBLE_DEVICES']     = 0
+		torch.cuda.device_count()      = 1
+
+
+
+	SEED         = 1568966143
+	PROJECT_PATH = E:\pycharm_project\LB 0.90161\code\dummy_11a\lib
+	__file__     = E:/pycharm_project/LB 0.90161/code/dummy_11a/resent34_cls_01/train.py
+	out_dir      = E:/pycharm_project/LB 0.90161/result/resnet34-cls-full-foldb0-0
+
+** dataset setting **
+batch_size = 20
+train_dataset : 
+	mode    = train
+	split   = ['train_b1_11568.npy']
+	csv     = ['train.csv']
+		len   = 11568
+		num   = 46272
+		neg   = 39737  0.859
+		pos   =  6535  0.141
+		pos1  =   830  0.072  0.127
+		pos2  =   224  0.019  0.034
+		pos3  =  4750  0.411  0.727
+		pos4  =   731  0.063  0.112
+
+valid_dataset : 
+	mode    = train
+	split   = ['valid_b1_1000.npy']
+	csv     = ['train.csv']
+		len   =  1000
+		num   =  4000
+		neg   =  3440  0.860
+		pos   =   560  0.140
+		pos1  =    67  0.067  0.120
+		pos2  =    23  0.023  0.041
+		pos3  =   400  0.400  0.714
+		pos4  =    70  0.070  0.125
+
+
+** net setting **
+	initial_checkpoint = E:/pycharm_project/LB 0.90161/result/resnet34-cls-full-foldb0-0/checkpoint/00007500_model.pth
+<class 'model.Net'>
+
+optimizer
+  SGD (
+Parameter Group 0
+    dampening: 0
+    lr: 0.001
+    momentum: 0.9
+    nesterov: False
+    weight_decay: 0.0001
+)
+schduler
+  NullScheduler
+lr=0.00100 
+
+** start training here! **
+   batch_size=20,  iter_accum=1
+   experiment  = resent34_cls_01
+                      |--------------- VALID-----------------|---------------------- TRAIN/BATCH ------------------
+rate     iter   epoch |  loss    tn, [tp1,tp2,tp3,tp4]       |  loss    tn, [tp1,tp2,tp3,tp4]       | time        
+--------------------------------------------------------------------------------------------------------------------
+
+--- [START 2019-09-20_16-25-40] ----------------------------------------------------------------
+
+	@common.py:  
+	set random seed
+		SEED = 1568967941
+	set cuda environment
+		torch.__version__              = 1.0.1
+		torch.version.cuda             = 10.0
+		torch.backends.cudnn.version() = 7401
+		os['CUDA_VISIBLE_DEVICES']     = 0
+		torch.cuda.device_count()      = 1
+
+
+
+	SEED         = 1568967941
+	PROJECT_PATH = E:\pycharm_project\LB 0.90161\code\dummy_11a\lib
+	__file__     = E:/pycharm_project/LB 0.90161/code/dummy_11a/resent34_cls_01/train.py
+	out_dir      = E:/pycharm_project/LB 0.90161/result/resnet34-cls-full-foldb0-0
+
+** dataset setting **
+batch_size = 20
+train_dataset : 
+	mode    = train
+	split   = ['train_b1_11568.npy']
+	csv     = ['train.csv']
+		len   = 11568
+		num   = 46272
+		neg   = 39737  0.859
+		pos   =  6535  0.141
+		pos1  =   830  0.072  0.127
+		pos2  =   224  0.019  0.034
+		pos3  =  4750  0.411  0.727
+		pos4  =   731  0.063  0.112
+
+valid_dataset : 
+	mode    = train
+	split   = ['valid_b1_1000.npy']
+	csv     = ['train.csv']
+		len   =  1000
+		num   =  4000
+		neg   =  3440  0.860
+		pos   =   560  0.140
+		pos1  =    67  0.067  0.120
+		pos2  =    23  0.023  0.041
+		pos3  =   400  0.400  0.714
+		pos4  =    70  0.070  0.125
+
+
+** net setting **
+	initial_checkpoint = E:/pycharm_project/LB 0.90161/result/resnet34-cls-full-foldb0-0/checkpoint/00007500_model.pth
+<class 'model.Net'>
+
+optimizer
+  SGD (
+Parameter Group 0
+    dampening: 0
+    lr: 0.001
+    momentum: 0.9
+    nesterov: False
+    weight_decay: 0.0001
+)
+schduler
+  NullScheduler
+lr=0.00100 
+
+** start training here! **
+   batch_size=20,  iter_accum=1
+   experiment  = resent34_cls_01
+                      |--------------- VALID-----------------|---------------------- TRAIN/BATCH ------------------
+rate     iter   epoch |  loss    tn, [tp1,tp2,tp3,tp4]       |  loss    tn, [tp1,tp2,tp3,tp4]       | time        
+--------------------------------------------------------------------------------------------------------------------
+
+--- [START 2019-09-20_16-27-44] ----------------------------------------------------------------
+
+	@common.py:  
+	set random seed
+		SEED = 1568968065
+	set cuda environment
+		torch.__version__              = 1.0.1
+		torch.version.cuda             = 10.0
+		torch.backends.cudnn.version() = 7401
+		os['CUDA_VISIBLE_DEVICES']     = 0
+		torch.cuda.device_count()      = 1
+
+
+
+	SEED         = 1568968065
+	PROJECT_PATH = E:\pycharm_project\LB 0.90161\code\dummy_11a\lib
+	__file__     = E:/pycharm_project/LB 0.90161/code/dummy_11a/resent34_cls_01/train.py
+	out_dir      = E:/pycharm_project/LB 0.90161/result/resnet34-cls-full-foldb0-0
+
+** dataset setting **
+batch_size = 20
+train_dataset : 
+	mode    = train
+	split   = ['train_b1_11568.npy']
+	csv     = ['train.csv']
+		len   = 11568
+		num   = 46272
+		neg   = 39737  0.859
+		pos   =  6535  0.141
+		pos1  =   830  0.072  0.127
+		pos2  =   224  0.019  0.034
+		pos3  =  4750  0.411  0.727
+		pos4  =   731  0.063  0.112
+
+valid_dataset : 
+	mode    = train
+	split   = ['valid_b1_1000.npy']
+	csv     = ['train.csv']
+		len   =  1000
+		num   =  4000
+		neg   =  3440  0.860
+		pos   =   560  0.140
+		pos1  =    67  0.067  0.120
+		pos2  =    23  0.023  0.041
+		pos3  =   400  0.400  0.714
+		pos4  =    70  0.070  0.125
+
+
+** net setting **
+	initial_checkpoint = E:/pycharm_project/LB 0.90161/result/resnet34-cls-full-foldb0-0/checkpoint/00007500_model.pth
+<class 'model.Net'>
+
+optimizer
+  SGD (
+Parameter Group 0
+    dampening: 0
+    lr: 0.001
+    momentum: 0.9
+    nesterov: False
+    weight_decay: 0.0001
+)
+schduler
+  NullScheduler
+lr=0.00100 
+
+** start training here! **
+   batch_size=20,  iter_accum=1
+   experiment  = resent34_cls_01
+                      |--------------- VALID-----------------|---------------------- TRAIN/BATCH ------------------
+rate     iter   epoch |  loss    tn, [tp1,tp2,tp3,tp4]       |  loss    tn, [tp1,tp2,tp3,tp4]       | time        
+--------------------------------------------------------------------------------------------------------------------
+
+--- [START 2019-09-20_16-37-11] ----------------------------------------------------------------
+
+	@common.py:  
+	set random seed
+		SEED = 1568968632
+	set cuda environment
+		torch.__version__              = 1.0.1
+		torch.version.cuda             = 10.0
+		torch.backends.cudnn.version() = 7401
+		os['CUDA_VISIBLE_DEVICES']     = 0
+		torch.cuda.device_count()      = 1
+
+
+
+	SEED         = 1568968632
+	PROJECT_PATH = E:\pycharm_project\LB 0.90161\code\dummy_11a\lib
+	__file__     = E:/pycharm_project/LB 0.90161/code/dummy_11a/resent34_cls_01/train.py
+	out_dir      = E:/pycharm_project/LB 0.90161/result/resnet34-cls-full-foldb0-0
+
+** dataset setting **
+batch_size = 20
+train_dataset : 
+	mode    = train
+	split   = ['train_b1_11568.npy']
+	csv     = ['train.csv']
+		len   = 11568
+		num   = 46272
+		neg   = 39737  0.859
+		pos   =  6535  0.141
+		pos1  =   830  0.072  0.127
+		pos2  =   224  0.019  0.034
+		pos3  =  4750  0.411  0.727
+		pos4  =   731  0.063  0.112
+
+valid_dataset : 
+	mode    = train
+	split   = ['valid_b1_1000.npy']
+	csv     = ['train.csv']
+		len   =  1000
+		num   =  4000
+		neg   =  3440  0.860
+		pos   =   560  0.140
+		pos1  =    67  0.067  0.120
+		pos2  =    23  0.023  0.041
+		pos3  =   400  0.400  0.714
+		pos4  =    70  0.070  0.125
+
+
+** net setting **
+	initial_checkpoint = E:/pycharm_project/LB 0.90161/result/resnet34-cls-full-foldb0-0/checkpoint/00007500_model.pth
+<class 'model.Net'>
+
+optimizer
+  SGD (
+Parameter Group 0
+    dampening: 0
+    lr: 0.001
+    momentum: 0.9
+    nesterov: False
+    weight_decay: 0.0001
+)
+schduler
+  NullScheduler
+lr=0.00100 
+
+** start training here! **
+   batch_size=20,  iter_accum=1
+   experiment  = resent34_cls_01
+                      |--------------- VALID-----------------|---------------------- TRAIN/BATCH ------------------
+rate     iter   epoch |  loss    tn, [tp1,tp2,tp3,tp4]       |  loss    tn, [tp1,tp2,tp3,tp4]       | time        
+--------------------------------------------------------------------------------------------------------------------
+
+--- [START 2019-09-20_16-40-52] ----------------------------------------------------------------
+
+	@common.py:  
+	set random seed
+		SEED = 1568968853
+	set cuda environment
+		torch.__version__              = 1.0.1
+		torch.version.cuda             = 10.0
+		torch.backends.cudnn.version() = 7401
+		os['CUDA_VISIBLE_DEVICES']     = 0
+		torch.cuda.device_count()      = 1
+
+
+
+	SEED         = 1568968853
+	PROJECT_PATH = E:\pycharm_project\LB 0.90161\code\dummy_11a\lib
+	__file__     = E:/pycharm_project/LB 0.90161/code/dummy_11a/resent34_cls_01/train.py
+	out_dir      = E:/pycharm_project/LB 0.90161/result/resnet34-cls-full-foldb0-0
+
+** dataset setting **
+batch_size = 20
+train_dataset : 
+	mode    = train
+	split   = ['train_b1_11568.npy']
+	csv     = ['train.csv']
+		len   = 11568
+		num   = 46272
+		neg   = 39737  0.859
+		pos   =  6535  0.141
+		pos1  =   830  0.072  0.127
+		pos2  =   224  0.019  0.034
+		pos3  =  4750  0.411  0.727
+		pos4  =   731  0.063  0.112
+
+valid_dataset : 
+	mode    = train
+	split   = ['valid_b1_1000.npy']
+	csv     = ['train.csv']
+		len   =  1000
+		num   =  4000
+		neg   =  3440  0.860
+		pos   =   560  0.140
+		pos1  =    67  0.067  0.120
+		pos2  =    23  0.023  0.041
+		pos3  =   400  0.400  0.714
+		pos4  =    70  0.070  0.125
+
+
+** net setting **
+	initial_checkpoint = E:/pycharm_project/LB 0.90161/result/resnet34-cls-full-foldb0-0/checkpoint/00007500_model.pth
+<class 'model.Net'>
+
+optimizer
+  SGD (
+Parameter Group 0
+    dampening: 0
+    lr: 0.001
+    momentum: 0.9
+    nesterov: False
+    weight_decay: 0.0001
+)
+schduler
+  NullScheduler
+lr=0.00100 
+
+** start training here! **
+   batch_size=20,  iter_accum=1
+   experiment  = resent34_cls_01
+                      |--------------- VALID-----------------|---------------------- TRAIN/BATCH ------------------
+rate     iter   epoch |  loss    tn, [tp1,tp2,tp3,tp4]       |  loss    tn, [tp1,tp2,tp3,tp4]       | time        
+--------------------------------------------------------------------------------------------------------------------
+
+--- [START 2019-09-20_16-50-20] ----------------------------------------------------------------
+
+	@common.py:  
+	set random seed
+		SEED = 1568969421
+	set cuda environment
+		torch.__version__              = 1.0.1
+		torch.version.cuda             = 10.0
+		torch.backends.cudnn.version() = 7401
+		os['CUDA_VISIBLE_DEVICES']     = 0
+		torch.cuda.device_count()      = 1
+
+
+
+	SEED         = 1568969421
+	PROJECT_PATH = E:\pycharm_project\LB 0.90161\code\dummy_11a\lib
+	__file__     = E:/pycharm_project/LB 0.90161/code/dummy_11a/resent34_cls_01/train.py
+	out_dir      = E:/pycharm_project/LB 0.90161/result/resnet34-cls-full-foldb0-0
+
+** dataset setting **
+batch_size = 20
+train_dataset : 
+	mode    = train
+	split   = ['train_b1_11568.npy']
+	csv     = ['train.csv']
+		len   = 11568
+		num   = 46272
+		neg   = 39737  0.859
+		pos   =  6535  0.141
+		pos1  =   830  0.072  0.127
+		pos2  =   224  0.019  0.034
+		pos3  =  4750  0.411  0.727
+		pos4  =   731  0.063  0.112
+
+valid_dataset : 
+	mode    = train
+	split   = ['valid_b1_1000.npy']
+	csv     = ['train.csv']
+		len   =  1000
+		num   =  4000
+		neg   =  3440  0.860
+		pos   =   560  0.140
+		pos1  =    67  0.067  0.120
+		pos2  =    23  0.023  0.041
+		pos3  =   400  0.400  0.714
+		pos4  =    70  0.070  0.125
+
+
+** net setting **
+	initial_checkpoint = E:/pycharm_project/LB 0.90161/result/resnet34-cls-full-foldb0-0/checkpoint/00007500_model.pth
+<class 'model.Net'>
+
+optimizer
+  SGD (
+Parameter Group 0
+    dampening: 0
+    lr: 0.001
+    momentum: 0.9
+    nesterov: False
+    weight_decay: 0.0001
+)
+schduler
+  NullScheduler
+lr=0.00100 
+
+** start training here! **
+   batch_size=20,  iter_accum=1
+   experiment  = resent34_cls_01
+                      |--------------- VALID-----------------|---------------------- TRAIN/BATCH ------------------
+rate     iter   epoch |  loss    tn, [tp1,tp2,tp3,tp4]       |  loss    tn, [tp1,tp2,tp3,tp4]       | time        
+--------------------------------------------------------------------------------------------------------------------
+
+--- [START 2019-09-20_16-55-53] ----------------------------------------------------------------
+
+	@common.py:  
+	set random seed
+		SEED = 1568969754
+	set cuda environment
+		torch.__version__              = 1.0.1
+		torch.version.cuda             = 10.0
+		torch.backends.cudnn.version() = 7401
+		os['CUDA_VISIBLE_DEVICES']     = 0
+		torch.cuda.device_count()      = 1
+
+
+
+	SEED         = 1568969754
+	PROJECT_PATH = E:\pycharm_project\LB 0.90161\code\dummy_11a\lib
+	__file__     = E:/pycharm_project/LB 0.90161/code/dummy_11a/resent34_cls_01/train.py
+	out_dir      = E:/pycharm_project/LB 0.90161/result/resnet34-cls-full-foldb0-0
+
+** dataset setting **
+batch_size = 20
+train_dataset : 
+	mode    = train
+	split   = ['train_b1_11568.npy']
+	csv     = ['train.csv']
+		len   = 11568
+		num   = 46272
+		neg   = 39737  0.859
+		pos   =  6535  0.141
+		pos1  =   830  0.072  0.127
+		pos2  =   224  0.019  0.034
+		pos3  =  4750  0.411  0.727
+		pos4  =   731  0.063  0.112
+
+valid_dataset : 
+	mode    = train
+	split   = ['valid_b1_1000.npy']
+	csv     = ['train.csv']
+		len   =  1000
+		num   =  4000
+		neg   =  3440  0.860
+		pos   =   560  0.140
+		pos1  =    67  0.067  0.120
+		pos2  =    23  0.023  0.041
+		pos3  =   400  0.400  0.714
+		pos4  =    70  0.070  0.125
+
+
+** net setting **
+	initial_checkpoint = E:/pycharm_project/LB 0.90161/result/resnet34-cls-full-foldb0-0/checkpoint/00007500_model.pth
+<class 'model.Net'>
+
+optimizer
+  SGD (
+Parameter Group 0
+    dampening: 0
+    lr: 0.001
+    momentum: 0.9
+    nesterov: False
+    weight_decay: 0.0001
+)
+schduler
+  NullScheduler
+lr=0.00100 
+
+** start training here! **
+   batch_size=20,  iter_accum=1
+   experiment  = resent34_cls_01
+                      |--------------- VALID-----------------|---------------------- TRAIN/BATCH ------------------
+rate     iter   epoch |  loss    tn, [tp1,tp2,tp3,tp4]       |  loss    tn, [tp1,tp2,tp3,tp4]       | time        
+--------------------------------------------------------------------------------------------------------------------
+
+--- [START 2019-09-20_16-58-56] ----------------------------------------------------------------
+
+	@common.py:  
+	set random seed
+		SEED = 1568969937
+	set cuda environment
+		torch.__version__              = 1.0.1
+		torch.version.cuda             = 10.0
+		torch.backends.cudnn.version() = 7401
+		os['CUDA_VISIBLE_DEVICES']     = 0
+		torch.cuda.device_count()      = 1
+
+
+
+	SEED         = 1568969937
+	PROJECT_PATH = E:\pycharm_project\LB 0.90161\code\dummy_11a\lib
+	__file__     = E:/pycharm_project/LB 0.90161/code/dummy_11a/resent34_cls_01/train.py
+	out_dir      = E:/pycharm_project/LB 0.90161/result/resnet34-cls-full-foldb0-0
+
+** dataset setting **
+batch_size = 20
+train_dataset : 
+	mode    = train
+	split   = ['train_b1_11568.npy']
+	csv     = ['train.csv']
+		len   = 11568
+		num   = 46272
+		neg   = 39737  0.859
+		pos   =  6535  0.141
+		pos1  =   830  0.072  0.127
+		pos2  =   224  0.019  0.034
+		pos3  =  4750  0.411  0.727
+		pos4  =   731  0.063  0.112
+
+valid_dataset : 
+	mode    = train
+	split   = ['valid_b1_1000.npy']
+	csv     = ['train.csv']
+		len   =  1000
+		num   =  4000
+		neg   =  3440  0.860
+		pos   =   560  0.140
+		pos1  =    67  0.067  0.120
+		pos2  =    23  0.023  0.041
+		pos3  =   400  0.400  0.714
+		pos4  =    70  0.070  0.125
+
+
+** net setting **
+	initial_checkpoint = E:/pycharm_project/LB 0.90161/result/resnet34-cls-full-foldb0-0/checkpoint/00007500_model.pth
+<class 'model.Net'>
+
+optimizer
+  SGD (
+Parameter Group 0
+    dampening: 0
+    lr: 0.001
+    momentum: 0.9
+    nesterov: False
+    weight_decay: 0.0001
+)
+schduler
+  NullScheduler
+lr=0.00100 
+
+** start training here! **
+   batch_size=20,  iter_accum=1
+   experiment  = resent34_cls_01
+                      |--------------- VALID-----------------|---------------------- TRAIN/BATCH ------------------
+rate     iter   epoch |  loss    tn, [tp1,tp2,tp3,tp4]       |  loss    tn, [tp1,tp2,tp3,tp4]       | time        
+--------------------------------------------------------------------------------------------------------------------
+
+--- [START 2019-09-20_17-01-51] ----------------------------------------------------------------
+
+	@common.py:  
+	set random seed
+		SEED = 1568970112
+	set cuda environment
+		torch.__version__              = 1.0.1
+		torch.version.cuda             = 10.0
+		torch.backends.cudnn.version() = 7401
+		os['CUDA_VISIBLE_DEVICES']     = 0
+		torch.cuda.device_count()      = 1
+
+
+
+	SEED         = 1568970112
+	PROJECT_PATH = E:\pycharm_project\LB 0.90161\code\dummy_11a\lib
+	__file__     = E:/pycharm_project/LB 0.90161/code/dummy_11a/resent34_cls_01/train.py
+	out_dir      = E:/pycharm_project/LB 0.90161/result/resnet34-cls-full-foldb0-0
+
+** dataset setting **
+batch_size = 20
+train_dataset : 
+	mode    = train
+	split   = ['train_b1_11568.npy']
+	csv     = ['train.csv']
+		len   = 11568
+		num   = 46272
+		neg   = 39737  0.859
+		pos   =  6535  0.141
+		pos1  =   830  0.072  0.127
+		pos2  =   224  0.019  0.034
+		pos3  =  4750  0.411  0.727
+		pos4  =   731  0.063  0.112
+
+valid_dataset : 
+	mode    = train
+	split   = ['valid_b1_1000.npy']
+	csv     = ['train.csv']
+		len   =  1000
+		num   =  4000
+		neg   =  3440  0.860
+		pos   =   560  0.140
+		pos1  =    67  0.067  0.120
+		pos2  =    23  0.023  0.041
+		pos3  =   400  0.400  0.714
+		pos4  =    70  0.070  0.125
+
+
+** net setting **
+	initial_checkpoint = E:/pycharm_project/LB 0.90161/result/resnet34-cls-full-foldb0-0/checkpoint/00007500_model.pth
+<class 'model.Net'>
+
+optimizer
+  SGD (
+Parameter Group 0
+    dampening: 0
+    lr: 0.001
+    momentum: 0.9
+    nesterov: False
+    weight_decay: 0.0001
+)
+schduler
+  NullScheduler
+lr=0.00100 
+
+** start training here! **
+   batch_size=20,  iter_accum=1
+   experiment  = resent34_cls_01
+                      |--------------- VALID-----------------|---------------------- TRAIN/BATCH ------------------
+rate     iter   epoch |  loss    tn, [tp1,tp2,tp3,tp4]       |  loss    tn, [tp1,tp2,tp3,tp4]       | time        
+--------------------------------------------------------------------------------------------------------------------
+
+--- [START 2019-09-20_17-04-55] ----------------------------------------------------------------
+
+	@common.py:  
+	set random seed
+		SEED = 1568970296
+	set cuda environment
+		torch.__version__              = 1.0.1
+		torch.version.cuda             = 10.0
+		torch.backends.cudnn.version() = 7401
+		os['CUDA_VISIBLE_DEVICES']     = 0
+		torch.cuda.device_count()      = 1
+
+
+
+	SEED         = 1568970296
+	PROJECT_PATH = E:\pycharm_project\LB 0.90161\code\dummy_11a\lib
+	__file__     = E:/pycharm_project/LB 0.90161/code/dummy_11a/resent34_cls_01/train.py
+	out_dir      = E:/pycharm_project/LB 0.90161/result/resnet34-cls-full-foldb0-0
+
+** dataset setting **
+batch_size = 20
+train_dataset : 
+	mode    = train
+	split   = ['train_b1_11568.npy']
+	csv     = ['train.csv']
+		len   = 11568
+		num   = 46272
+		neg   = 39737  0.859
+		pos   =  6535  0.141
+		pos1  =   830  0.072  0.127
+		pos2  =   224  0.019  0.034
+		pos3  =  4750  0.411  0.727
+		pos4  =   731  0.063  0.112
+
+valid_dataset : 
+	mode    = train
+	split   = ['valid_b1_1000.npy']
+	csv     = ['train.csv']
+		len   =  1000
+		num   =  4000
+		neg   =  3440  0.860
+		pos   =   560  0.140
+		pos1  =    67  0.067  0.120
+		pos2  =    23  0.023  0.041
+		pos3  =   400  0.400  0.714
+		pos4  =    70  0.070  0.125
+
+
+** net setting **
+	initial_checkpoint = E:/pycharm_project/LB 0.90161/result/resnet34-cls-full-foldb0-0/checkpoint/00007500_model.pth
+<class 'model.Net'>
+
+optimizer
+  SGD (
+Parameter Group 0
+    dampening: 0
+    lr: 0.001
+    momentum: 0.9
+    nesterov: False
+    weight_decay: 0.0001
+)
+schduler
+  NullScheduler
+lr=0.00100 
+
+** start training here! **
+   batch_size=20,  iter_accum=1
+   experiment  = resent34_cls_01
+                      |--------------- VALID-----------------|---------------------- TRAIN/BATCH ------------------
+rate     iter   epoch |  loss    tn, [tp1,tp2,tp3,tp4]       |  loss    tn, [tp1,tp2,tp3,tp4]       | time        
+--------------------------------------------------------------------------------------------------------------------
+
+--- [START 2019-09-20_17-06-12] ----------------------------------------------------------------
+
+	@common.py:  
+	set random seed
+		SEED = 1568970372
+	set cuda environment
+		torch.__version__              = 1.0.1
+		torch.version.cuda             = 10.0
+		torch.backends.cudnn.version() = 7401
+		os['CUDA_VISIBLE_DEVICES']     = 0
+		torch.cuda.device_count()      = 1
+
+
+
+	SEED         = 1568970372
+	PROJECT_PATH = E:\pycharm_project\LB 0.90161\code\dummy_11a\lib
+	__file__     = E:/pycharm_project/LB 0.90161/code/dummy_11a/resent34_cls_01/train.py
+	out_dir      = E:/pycharm_project/LB 0.90161/result/resnet34-cls-full-foldb0-0
+
+** dataset setting **
+batch_size = 20
+train_dataset : 
+	mode    = train
+	split   = ['train_b1_11568.npy']
+	csv     = ['train.csv']
+		len   = 11568
+		num   = 46272
+		neg   = 39737  0.859
+		pos   =  6535  0.141
+		pos1  =   830  0.072  0.127
+		pos2  =   224  0.019  0.034
+		pos3  =  4750  0.411  0.727
+		pos4  =   731  0.063  0.112
+
+valid_dataset : 
+	mode    = train
+	split   = ['valid_b1_1000.npy']
+	csv     = ['train.csv']
+		len   =  1000
+		num   =  4000
+		neg   =  3440  0.860
+		pos   =   560  0.140
+		pos1  =    67  0.067  0.120
+		pos2  =    23  0.023  0.041
+		pos3  =   400  0.400  0.714
+		pos4  =    70  0.070  0.125
+
+
+** net setting **
+	initial_checkpoint = E:/pycharm_project/LB 0.90161/result/resnet34-cls-full-foldb0-0/checkpoint/00007500_model.pth
+<class 'model.Net'>
+
+optimizer
+  SGD (
+Parameter Group 0
+    dampening: 0
+    lr: 0.001
+    momentum: 0.9
+    nesterov: False
+    weight_decay: 0.0001
+)
+schduler
+  NullScheduler
+lr=0.00100 
+
+** start training here! **
+   batch_size=20,  iter_accum=1
+   experiment  = resent34_cls_01
+                      |--------------- VALID-----------------|---------------------- TRAIN/BATCH ------------------
+rate     iter   epoch |  loss    tn, [tp1,tp2,tp3,tp4]       |  loss    tn, [tp1,tp2,tp3,tp4]       | time        
+--------------------------------------------------------------------------------------------------------------------
+0.00000    0.0*   0.0 |  0.019   1.00 [0.97,0.91,0.96,1.00]  |  0.000   0.00 [0.00,0.00,0.00,0.00]  |  0 hr 00 min
+0.00100    0.5    0.9 |  0.019   1.00 [0.97,0.91,0.96,1.00]  |  0.023   1.00 [0.97,0.94,0.97,0.96]  |  0 hr 05 min
+0.00100    1.0    1.7 |  0.019   1.00 [0.97,0.91,0.96,1.00]  |  0.024   1.00 [0.93,0.94,0.96,0.97]  |  0 hr 10 min
+
+--- [START 2019-09-21_09-55-47] ----------------------------------------------------------------
+
+	@common.py:  
+	set random seed
+		SEED = 1569030948
+	set cuda environment
+		torch.__version__              = 1.0.1
+		torch.version.cuda             = 10.0
+		torch.backends.cudnn.version() = 7401
+		os['CUDA_VISIBLE_DEVICES']     = 0
+		torch.cuda.device_count()      = 1
+
+
+
+	SEED         = 1569030948
+	PROJECT_PATH = E:\pycharm_project\LB 0.90161\code\dummy_11a\lib
+	__file__     = E:/pycharm_project/LB 0.90161/code/dummy_11a/resent34_cls_01/train.py
+	out_dir      = E:/pycharm_project/LB 0.90161/result/resnet34-cls-full-foldb0-0
+
+** dataset setting **
+batch_size = 20
+train_dataset : 
+	mode    = train
+	split   = ['train_b1_11568.npy']
+	csv     = ['train.csv']
+		len   = 11568
+		num   = 46272
+		neg   = 39737  0.859
+		pos   =  6535  0.141
+		pos1  =   830  0.072  0.127
+		pos2  =   224  0.019  0.034
+		pos3  =  4750  0.411  0.727
+		pos4  =   731  0.063  0.112
+
+valid_dataset : 
+	mode    = train
+	split   = ['valid_b1_1000.npy']
+	csv     = ['train.csv']
+		len   =  1000
+		num   =  4000
+		neg   =  3440  0.860
+		pos   =   560  0.140
+		pos1  =    67  0.067  0.120
+		pos2  =    23  0.023  0.041
+		pos3  =   400  0.400  0.714
+		pos4  =    70  0.070  0.125
+
+
+** net setting **
+	initial_checkpoint = E:/pycharm_project/LB 0.90161/result/resnet34-cls-full-foldb0-0/checkpoint/00007500_model.pth
+<class 'model.Net'>
+
+optimizer
+  SGD (
+Parameter Group 0
+    dampening: 0
+    lr: 0.001
+    momentum: 0.9
+    nesterov: False
+    weight_decay: 0.0001
+)
+schduler
+  NullScheduler
+lr=0.00100 
+
+** start training here! **
+   batch_size=20,  iter_accum=1
+   experiment  = resent34_cls_01
+                      |--------------- VALID-----------------|---------------------- TRAIN/BATCH ------------------
+rate     iter   epoch |  loss    tn, [tp1,tp2,tp3,tp4]       |  loss    tn, [tp1,tp2,tp3,tp4]       | time        
+--------------------------------------------------------------------------------------------------------------------
+0.00000    0.0*   0.0 |  0.019   1.00 [0.97,0.91,0.96,1.00]  |  0.000   0.00 [0.00,0.00,0.00,0.00]  |  0 hr 00 min
+0.00100    0.5    0.9 |  0.019   1.00 [0.97,0.91,0.96,1.00]  |  0.030   0.99 [0.93,0.82,0.98,0.94]  |  0 hr 05 min
+0.00100    1.0    1.7 |  0.019   1.00 [0.97,0.91,0.96,1.00]  |  0.028   0.99 [0.90,0.89,0.98,1.00]  |  0 hr 10 min
+
+--- [START 2019-09-21_10-12-20] ----------------------------------------------------------------
+
+	@common.py:  
+	set random seed
+		SEED = 1569031941
+	set cuda environment
+		torch.__version__              = 1.0.1
+		torch.version.cuda             = 10.0
+		torch.backends.cudnn.version() = 7401
+		os['CUDA_VISIBLE_DEVICES']     = 0
+		torch.cuda.device_count()      = 1
+
+
+
+	SEED         = 1569031941
+	PROJECT_PATH = E:\pycharm_project\LB 0.90161\code\dummy_11a\lib
+	__file__     = E:/pycharm_project/LB 0.90161/code/dummy_11a/resent34_cls_01/train.py
+	out_dir      = E:/pycharm_project/LB 0.90161/result/resnet34-cls-full-foldb0-0
+
+** dataset setting **
+batch_size = 20
+train_dataset : 
+	mode    = train
+	split   = ['train_b1_11568.npy']
+	csv     = ['train.csv']
+		len   = 11568
+		num   = 46272
+		neg   = 39737  0.859
+		pos   =  6535  0.141
+		pos1  =   830  0.072  0.127
+		pos2  =   224  0.019  0.034
+		pos3  =  4750  0.411  0.727
+		pos4  =   731  0.063  0.112
+
+valid_dataset : 
+	mode    = train
+	split   = ['valid_b1_1000.npy']
+	csv     = ['train.csv']
+		len   =  1000
+		num   =  4000
+		neg   =  3440  0.860
+		pos   =   560  0.140
+		pos1  =    67  0.067  0.120
+		pos2  =    23  0.023  0.041
+		pos3  =   400  0.400  0.714
+		pos4  =    70  0.070  0.125
+
+
+** net setting **
+	initial_checkpoint = E:/pycharm_project/LB 0.90161/result/resnet34-cls-full-foldb0-0/checkpoint/00007500_model.pth
+<class 'model.Net'>
+
+optimizer
+  SGD (
+Parameter Group 0
+    dampening: 0
+    lr: 0.001
+    momentum: 0.9
+    nesterov: False
+    weight_decay: 0.0001
+)
+schduler
+  NullScheduler
+lr=0.00100 
+
+** start training here! **
+   batch_size=20,  iter_accum=1
+   experiment  = resent34_cls_01
+                      |--------------- VALID-----------------|---------------------- TRAIN/BATCH ------------------
+rate     iter   epoch |  loss    tn, [tp1,tp2,tp3,tp4]       |  loss    tn, [tp1,tp2,tp3,tp4]       | time        
+--------------------------------------------------------------------------------------------------------------------
+0.00000    0.0*   0.0 |  0.019   1.00 [0.97,0.91,0.96,1.00]  |  0.000   0.00 [0.00,0.00,0.00,0.00]  |  0 hr 00 min
+
+--- [START 2019-09-21_10-17-53] ----------------------------------------------------------------
+
+	@common.py:  
+	set random seed
+		SEED = 1569032273
+	set cuda environment
+		torch.__version__              = 1.0.1
+		torch.version.cuda             = 10.0
+		torch.backends.cudnn.version() = 7401
+		os['CUDA_VISIBLE_DEVICES']     = 0
+		torch.cuda.device_count()      = 1
+
+
+
+	SEED         = 1569032273
+	PROJECT_PATH = E:\pycharm_project\LB 0.90161\code\dummy_11a\lib
+	__file__     = E:/pycharm_project/LB 0.90161/code/dummy_11a/resent34_cls_01/train.py
+	out_dir      = E:/pycharm_project/LB 0.90161/result/resnet34-cls-full-foldb0-0
+
+** dataset setting **
+batch_size = 20
+train_dataset : 
+	mode    = train
+	split   = ['train_b1_11568.npy']
+	csv     = ['train.csv']
+		len   = 11568
+		num   = 46272
+		neg   = 39737  0.859
+		pos   =  6535  0.141
+		pos1  =   830  0.072  0.127
+		pos2  =   224  0.019  0.034
+		pos3  =  4750  0.411  0.727
+		pos4  =   731  0.063  0.112
+
+valid_dataset : 
+	mode    = train
+	split   = ['valid_b1_1000.npy']
+	csv     = ['train.csv']
+		len   =  1000
+		num   =  4000
+		neg   =  3440  0.860
+		pos   =   560  0.140
+		pos1  =    67  0.067  0.120
+		pos2  =    23  0.023  0.041
+		pos3  =   400  0.400  0.714
+		pos4  =    70  0.070  0.125
+
+
+** net setting **
+	initial_checkpoint = E:/pycharm_project/LB 0.90161/result/resnet34-cls-full-foldb0-0/checkpoint/00007500_model.pth
+<class 'model.Net'>
+
+optimizer
+  SGD (
+Parameter Group 0
+    dampening: 0
+    lr: 0.001
+    momentum: 0.9
+    nesterov: False
+    weight_decay: 0.0001
+)
+schduler
+  NullScheduler
+lr=0.00100 
+
+** start training here! **
+   batch_size=20,  iter_accum=1
+   experiment  = resent34_cls_01
+                      |--------------- VALID-----------------|---------------------- TRAIN/BATCH ------------------
+rate     iter   epoch |  loss    tn, [tp1,tp2,tp3,tp4]       |  loss    tn, [tp1,tp2,tp3,tp4]       | time        
+--------------------------------------------------------------------------------------------------------------------
+0.00000    0.0*   0.0 |  0.019   1.00 [0.97,0.91,0.96,1.00]  |  0.000   0.00 [0.00,0.00,0.00,0.00]  |  0 hr 02 min
+
+--- [START 2019-09-21_11-27-02] ----------------------------------------------------------------
+
+	@common.py:  
+	set random seed
+		SEED = 1569036423
+	set cuda environment
+		torch.__version__              = 1.0.1
+		torch.version.cuda             = 10.0
+		torch.backends.cudnn.version() = 7401
+		os['CUDA_VISIBLE_DEVICES']     = 0
+		torch.cuda.device_count()      = 1
+
+
+
+	SEED         = 1569036423
+	PROJECT_PATH = E:\pycharm_project\LB 0.90161\code\dummy_11a\lib
+	__file__     = E:/pycharm_project/LB 0.90161/code/dummy_11a/resent34_cls_01/train.py
+	out_dir      = E:/pycharm_project/LB 0.90161/result/resnet34-cls-full-foldb0-0
+
+** dataset setting **
+batch_size = 20
+train_dataset : 
+	mode    = train
+	split   = ['train_b1_11568.npy']
+	csv     = ['train.csv']
+		len   = 11568
+		num   = 46272
+		neg   = 39737  0.859
+		pos   =  6535  0.141
+		pos1  =   830  0.072  0.127
+		pos2  =   224  0.019  0.034
+		pos3  =  4750  0.411  0.727
+		pos4  =   731  0.063  0.112
+
+valid_dataset : 
+	mode    = train
+	split   = ['valid_b1_1000.npy']
+	csv     = ['train.csv']
+		len   =  1000
+		num   =  4000
+		neg   =  3440  0.860
+		pos   =   560  0.140
+		pos1  =    67  0.067  0.120
+		pos2  =    23  0.023  0.041
+		pos3  =   400  0.400  0.714
+		pos4  =    70  0.070  0.125
+
+
+** net setting **
+	initial_checkpoint = E:/pycharm_project/LB 0.90161/result/resnet34-cls-full-foldb0-0/checkpoint/00007500_model.pth
+<class 'model.Net'>
+
+optimizer
+  SGD (
+Parameter Group 0
+    dampening: 0
+    lr: 0.001
+    momentum: 0.9
+    nesterov: False
+    weight_decay: 0.0001
+)
+schduler
+  NullScheduler
+lr=0.00100 
+
+** start training here! **
+   batch_size=20,  iter_accum=1
+   experiment  = resent34_cls_01
+                      |--------------- VALID-----------------|---------------------- TRAIN/BATCH ------------------
+rate     iter   epoch |  loss    tn, [tp1,tp2,tp3,tp4]       |  loss    tn, [tp1,tp2,tp3,tp4]       | time        
+--------------------------------------------------------------------------------------------------------------------
+0.00000    0.0*   0.0 |  0.019   1.00 [0.97,0.91,0.96,1.00]  |  0.000   0.00 [0.00,0.00,0.00,0.00]  |  0 hr 00 min
+0.00100    0.5    0.9 |  0.019   1.00 [0.97,0.91,0.96,1.00]  |  0.026   1.00 [0.94,0.86,0.97,0.96]  |  0 hr 05 min
+0.00100    1.0    1.7 |  0.019   1.00 [0.97,0.91,0.96,1.00]  |  0.029   1.00 [0.96,0.88,0.96,0.97]  |  0 hr 10 min
+
+--- [START 2019-09-21_14-58-00] ----------------------------------------------------------------
+
+	@common.py:  
+	set random seed
+		SEED = 1569049081
+	set cuda environment
+		torch.__version__              = 1.0.1
+		torch.version.cuda             = 10.0
+		torch.backends.cudnn.version() = 7401
+		os['CUDA_VISIBLE_DEVICES']     = 0
+		torch.cuda.device_count()      = 1
+
+
+
+	SEED         = 1569049081
+	PROJECT_PATH = E:\pycharm_project\LB 0.90161\code\dummy_11a\lib
+	__file__     = E:/pycharm_project/LB 0.90161/code/dummy_11a/resent34_cls_01/train.py
+	out_dir      = E:/pycharm_project/LB 0.90161/result/resnet34-cls-full-foldb0-0
+
+** dataset setting **
+batch_size = 20
+train_dataset : 
+	mode    = train
+	split   = ['train_b1_11568.npy']
+	csv     = ['train.csv']
+		len   = 11568
+		num   = 46272
+		neg   = 39737  0.859
+		pos   =  6535  0.141
+		pos1  =   830  0.072  0.127
+		pos2  =   224  0.019  0.034
+		pos3  =  4750  0.411  0.727
+		pos4  =   731  0.063  0.112
+
+valid_dataset : 
+	mode    = train
+	split   = ['valid_b1_1000.npy']
+	csv     = ['train.csv']
+		len   =  1000
+		num   =  4000
+		neg   =  3440  0.860
+		pos   =   560  0.140
+		pos1  =    67  0.067  0.120
+		pos2  =    23  0.023  0.041
+		pos3  =   400  0.400  0.714
+		pos4  =    70  0.070  0.125
+
+
+** net setting **
+	initial_checkpoint = E:/pycharm_project/LB 0.90161/result/resnet34-cls-full-foldb0-0/checkpoint/00007500_model.pth
+<class 'model.Net'>
+
+optimizer
+  SGD (
+Parameter Group 0
+    dampening: 0
+    lr: 0.001
+    momentum: 0.9
+    nesterov: False
+    weight_decay: 0.0001
+)
+schduler
+  NullScheduler
+lr=0.00100 
+
+** start training here! **
+   batch_size=20,  iter_accum=1
+   experiment  = resent34_cls_01
+                      |--------------- VALID-----------------|---------------------- TRAIN/BATCH ------------------
+rate     iter   epoch |  loss    tn, [tp1,tp2,tp3,tp4]       |  loss    tn, [tp1,tp2,tp3,tp4]       | time        
+--------------------------------------------------------------------------------------------------------------------
+0.00000    0.0*   0.0 |  0.019   1.00 [0.97,0.91,0.96,1.00]  |  0.000   0.00 [0.00,0.00,0.00,0.00]  |  0 hr 00 min
+0.00100    0.5    0.9 |  0.019   1.00 [0.97,0.91,0.96,1.00]  |  0.027   1.00 [0.95,0.91,0.96,0.94]  |  0 hr 05 min
+0.00100    1.0    1.7 |  0.019   1.00 [0.97,0.91,0.96,1.00]  |  0.019   1.00 [0.94,1.00,0.98,1.00]  |  0 hr 10 min
+
+--- [START 2019-09-21_15-16-15] ----------------------------------------------------------------
+
+	@common.py:  
+	set random seed
+		SEED = 1569050176
+	set cuda environment
+		torch.__version__              = 1.0.1
+		torch.version.cuda             = 10.0
+		torch.backends.cudnn.version() = 7401
+		os['CUDA_VISIBLE_DEVICES']     = 0
+		torch.cuda.device_count()      = 1
+
+
+
+	SEED         = 1569050176
+	PROJECT_PATH = E:\pycharm_project\LB 0.90161\code\dummy_11a\lib
+	__file__     = E:/pycharm_project/LB 0.90161/code/dummy_11a/resent34_cls_01/train.py
+	out_dir      = E:/pycharm_project/LB 0.90161/result/resnet34-cls-full-foldb0-0
+
+** dataset setting **
+batch_size = 20
+train_dataset : 
+	mode    = train
+	split   = ['train_b1_11568.npy']
+	csv     = ['train.csv']
+		len   = 11568
+		num   = 46272
+		neg   = 39737  0.859
+		pos   =  6535  0.141
+		pos1  =   830  0.072  0.127
+		pos2  =   224  0.019  0.034
+		pos3  =  4750  0.411  0.727
+		pos4  =   731  0.063  0.112
+
+valid_dataset : 
+	mode    = train
+	split   = ['valid_b1_1000.npy']
+	csv     = ['train.csv']
+		len   =  1000
+		num   =  4000
+		neg   =  3440  0.860
+		pos   =   560  0.140
+		pos1  =    67  0.067  0.120
+		pos2  =    23  0.023  0.041
+		pos3  =   400  0.400  0.714
+		pos4  =    70  0.070  0.125
+
+
+** net setting **
+	initial_checkpoint = E:/pycharm_project/LB 0.90161/result/resnet34-cls-full-foldb0-0/checkpoint/00007500_model.pth
+<class 'model.Net'>
+
+optimizer
+  SGD (
+Parameter Group 0
+    dampening: 0
+    lr: 0.001
+    momentum: 0.9
+    nesterov: False
+    weight_decay: 0.0001
+)
+schduler
+  NullScheduler
+lr=0.00100 
+
+** start training here! **
+   batch_size=20,  iter_accum=1
+   experiment  = resent34_cls_01
+                      |--------------- VALID-----------------|---------------------- TRAIN/BATCH ------------------
+rate     iter   epoch |  loss    tn, [tp1,tp2,tp3,tp4]       |  loss    tn, [tp1,tp2,tp3,tp4]       | time        
+--------------------------------------------------------------------------------------------------------------------
+
+--- [START 2019-09-21_15-27-24] ----------------------------------------------------------------
+
+	@common.py:  
+	set random seed
+		SEED = 1569050845
+	set cuda environment
+		torch.__version__              = 1.0.1
+		torch.version.cuda             = 10.0
+		torch.backends.cudnn.version() = 7401
+		os['CUDA_VISIBLE_DEVICES']     = 0
+		torch.cuda.device_count()      = 1
+
+
+
+	SEED         = 1569050845
+	PROJECT_PATH = E:\pycharm_project\LB 0.90161\code\dummy_11a\lib
+	__file__     = E:/pycharm_project/LB 0.90161/code/dummy_11a/resent34_cls_01/train.py
+	out_dir      = E:/pycharm_project/LB 0.90161/result/resnet34-cls-full-foldb0-0
+
+** dataset setting **
+batch_size = 20
+train_dataset : 
+	mode    = train
+	split   = ['train_b1_11568.npy']
+	csv     = ['train.csv']
+		len   = 11568
+		num   = 46272
+		neg   = 39737  0.859
+		pos   =  6535  0.141
+		pos1  =   830  0.072  0.127
+		pos2  =   224  0.019  0.034
+		pos3  =  4750  0.411  0.727
+		pos4  =   731  0.063  0.112
+
+valid_dataset : 
+	mode    = train
+	split   = ['valid_b1_1000.npy']
+	csv     = ['train.csv']
+		len   =  1000
+		num   =  4000
+		neg   =  3440  0.860
+		pos   =   560  0.140
+		pos1  =    67  0.067  0.120
+		pos2  =    23  0.023  0.041
+		pos3  =   400  0.400  0.714
+		pos4  =    70  0.070  0.125
+
+
+** net setting **
+	initial_checkpoint = E:/pycharm_project/LB 0.90161/result/resnet34-cls-full-foldb0-0/checkpoint/00007500_model.pth
+<class 'model.Net'>
+
+optimizer
+  SGD (
+Parameter Group 0
+    dampening: 0
+    lr: 0.001
+    momentum: 0.9
+    nesterov: False
+    weight_decay: 0.0001
+)
+schduler
+  NullScheduler
+lr=0.00100 
+
+** start training here! **
+   batch_size=20,  iter_accum=1
+   experiment  = resent34_cls_01
+                      |--------------- VALID-----------------|---------------------- TRAIN/BATCH ------------------
+rate     iter   epoch |  loss    tn, [tp1,tp2,tp3,tp4]       |  loss    tn, [tp1,tp2,tp3,tp4]       | time        
+--------------------------------------------------------------------------------------------------------------------
+
+--- [START 2019-09-21_15-31-27] ----------------------------------------------------------------
+
+	@common.py:  
+	set random seed
+		SEED = 1569051088
+	set cuda environment
+		torch.__version__              = 1.0.1
+		torch.version.cuda             = 10.0
+		torch.backends.cudnn.version() = 7401
+		os['CUDA_VISIBLE_DEVICES']     = 0
+		torch.cuda.device_count()      = 1
+
+
+
+	SEED         = 1569051088
+	PROJECT_PATH = E:\pycharm_project\LB 0.90161\code\dummy_11a\lib
+	__file__     = E:/pycharm_project/LB 0.90161/code/dummy_11a/resent34_cls_01/train.py
+	out_dir      = E:/pycharm_project/LB 0.90161/result/resnet34-cls-full-foldb0-0
+
+** dataset setting **
+batch_size = 20
+train_dataset : 
+	mode    = train
+	split   = ['train_b1_11568.npy']
+	csv     = ['train.csv']
+		len   = 11568
+		num   = 46272
+		neg   = 39737  0.859
+		pos   =  6535  0.141
+		pos1  =   830  0.072  0.127
+		pos2  =   224  0.019  0.034
+		pos3  =  4750  0.411  0.727
+		pos4  =   731  0.063  0.112
+
+valid_dataset : 
+	mode    = train
+	split   = ['valid_b1_1000.npy']
+	csv     = ['train.csv']
+		len   =  1000
+		num   =  4000
+		neg   =  3440  0.860
+		pos   =   560  0.140
+		pos1  =    67  0.067  0.120
+		pos2  =    23  0.023  0.041
+		pos3  =   400  0.400  0.714
+		pos4  =    70  0.070  0.125
+
+
+** net setting **
+	initial_checkpoint = E:/pycharm_project/LB 0.90161/result/resnet34-cls-full-foldb0-0/checkpoint/00007500_model.pth
+<class 'model.Net'>
+
+optimizer
+  SGD (
+Parameter Group 0
+    dampening: 0
+    lr: 0.001
+    momentum: 0.9
+    nesterov: False
+    weight_decay: 0.0001
+)
+schduler
+  NullScheduler
+lr=0.00100 
+
+** start training here! **
+   batch_size=20,  iter_accum=1
+   experiment  = resent34_cls_01
+                      |--------------- VALID-----------------|---------------------- TRAIN/BATCH ------------------
+rate     iter   epoch |  loss    tn, [tp1,tp2,tp3,tp4]       |  loss    tn, [tp1,tp2,tp3,tp4]       | time        
+--------------------------------------------------------------------------------------------------------------------
+0.00000    0.0*   0.0 |  0.019   1.00 [0.97,0.91,0.96,1.00]  |  0.000   0.00 [0.00,0.00,0.00,0.00]  |  0 hr 01 min
+
+--- [START 2019-09-21_15-48-46] ----------------------------------------------------------------
+
+	@common.py:  
+	set random seed
+		SEED = 1569052128
+	set cuda environment
+		torch.__version__              = 1.0.1
+		torch.version.cuda             = 10.0
+		torch.backends.cudnn.version() = 7401
+		os['CUDA_VISIBLE_DEVICES']     = 0
+		torch.cuda.device_count()      = 1
+
+
+
+	SEED         = 1569052128
+	PROJECT_PATH = E:\pycharm_project\LB 0.90161\code\dummy_11a\lib
+	__file__     = E:/pycharm_project/LB 0.90161/code/dummy_11a/resent34_cls_01/train.py
+	out_dir      = E:/pycharm_project/LB 0.90161/result/resnet34-cls-full-foldb0-0
+
+** dataset setting **
+batch_size = 16
+train_dataset : 
+	mode    = train
+	split   = ['train_b1_11568.npy']
+	csv     = ['train.csv']
+		len   = 11568
+		num   = 46272
+		neg   = 39737  0.859
+		pos   =  6535  0.141
+		pos1  =   830  0.072  0.127
+		pos2  =   224  0.019  0.034
+		pos3  =  4750  0.411  0.727
+		pos4  =   731  0.063  0.112
+
+valid_dataset : 
+	mode    = train
+	split   = ['valid_b1_1000.npy']
+	csv     = ['train.csv']
+		len   =  1000
+		num   =  4000
+		neg   =  3440  0.860
+		pos   =   560  0.140
+		pos1  =    67  0.067  0.120
+		pos2  =    23  0.023  0.041
+		pos3  =   400  0.400  0.714
+		pos4  =    70  0.070  0.125
+
+
+** net setting **
+	initial_checkpoint = E:/pycharm_project/LB 0.90161/result/resnet34-cls-full-foldb0-0/checkpoint/00007500_model.pth
+<class 'model.Net'>
+
+optimizer
+  SGD (
+Parameter Group 0
+    dampening: 0
+    lr: 0.001
+    momentum: 0.9
+    nesterov: False
+    weight_decay: 0.0001
+)
+schduler
+  NullScheduler
+lr=0.00100 
+
+** start training here! **
+   batch_size=16,  iter_accum=1
+   experiment  = resent34_cls_01
+                      |--------------- VALID-----------------|---------------------- TRAIN/BATCH ------------------
+rate     iter   epoch |  loss    tn, [tp1,tp2,tp3,tp4]       |  loss    tn, [tp1,tp2,tp3,tp4]       | time        
+--------------------------------------------------------------------------------------------------------------------
+0.00000    0.0*   0.0 |  0.019   1.00 [0.97,0.91,0.96,1.00]  |  0.000   0.00 [0.00,0.00,0.00,0.00]  |  0 hr 00 min
+0.00100    0.5    0.7 |  0.019   1.00 [0.97,0.91,0.96,1.00]  |  0.033   1.00 [0.87,0.81,0.96,0.96]  |  0 hr 04 min
+0.00100    1.0    1.4 |  0.019   1.00 [0.97,0.91,0.96,1.00]  |  0.027   1.00 [0.94,0.65,0.97,1.00]  |  0 hr 08 min
+0.00100    1.5*   2.1 |  0.019   1.00 [0.97,0.91,0.98,0.99]  |  0.029   0.99 [1.00,1.00,0.97,1.00]  |  0 hr 13 min
+0.00100    2.0    2.8 |  0.019   1.00 [0.97,0.91,0.98,0.99]  |  0.021   1.00 [0.89,0.91,0.98,1.00]  |  0 hr 16 min
+0.00100    2.5    3.5 |  0.019   1.00 [0.97,0.91,0.98,0.99]  |  0.019   1.00 [0.98,0.78,0.97,1.00]  |  0 hr 20 min
+0.00100    3.0*   4.1 |  0.021   1.00 [0.96,0.91,0.96,0.99]  |  0.025   1.00 [0.93,1.00,0.97,0.98]  |  0 hr 25 min
+
+--- [START 2019-09-24_21-07-40] ----------------------------------------------------------------
+
+	@common.py:  
+	set random seed
+		SEED = 1569330462
+	set cuda environment
+		torch.__version__              = 1.2.0
+		torch.version.cuda             = 10.0
+		torch.backends.cudnn.version() = 7401
+		os['CUDA_VISIBLE_DEVICES']     = 0
+		torch.cuda.device_count()      = 1
+
+
+
+	SEED         = 1569330462
+	PROJECT_PATH = E:\pycharm_project\LB 0.90161\code\dummy_11a\lib
+	__file__     = E:/pycharm_project/LB 0.90161/code/dummy_11a/resent34_cls_01/train.py
+	out_dir      = E:/pycharm_project/LB 0.90161/result/resnet34-cls-full-foldb0-0
+
+** dataset setting **
+batch_size = 16
+train_dataset : 
+	mode    = train
+	split   = ['train_b1_11568.npy']
+	csv     = ['train.csv']
+		len   = 11568
+		num   = 46272
+		neg   = 39737  0.859
+		pos   =  6535  0.141
+		pos1  =   830  0.072  0.127
+		pos2  =   224  0.019  0.034
+		pos3  =  4750  0.411  0.727
+		pos4  =   731  0.063  0.112
+
+valid_dataset : 
+	mode    = train
+	split   = ['valid_b1_1000.npy']
+	csv     = ['train.csv']
+		len   =  1000
+		num   =  4000
+		neg   =  3440  0.860
+		pos   =   560  0.140
+		pos1  =    67  0.067  0.120
+		pos2  =    23  0.023  0.041
+		pos3  =   400  0.400  0.714
+		pos4  =    70  0.070  0.125
+
+
+** net setting **
+	initial_checkpoint = E:/pycharm_project/LB 0.90161/result/resnet34-cls-full-foldb0-0/checkpoint/00007500_model.pth
+<class 'model.Net'>
+
+optimizer
+  SGD (
+Parameter Group 0
+    dampening: 0
+    lr: 0.001
+    momentum: 0.9
+    nesterov: False
+    weight_decay: 0.0001
+)
+schduler
+  NullScheduler
+lr=0.00100 
+
+** start training here! **
+   batch_size=16,  iter_accum=1
+   experiment  = resent34_cls_01
+                      |--------------- VALID-----------------|---------------------- TRAIN/BATCH ------------------
+rate     iter   epoch |  loss    tn, [tp1,tp2,tp3,tp4]       |  loss    tn, [tp1,tp2,tp3,tp4]       | time        
+--------------------------------------------------------------------------------------------------------------------
+
+--- [START 2019-09-24_21-09-19] ----------------------------------------------------------------
+
+	@common.py:  
+	set random seed
+		SEED = 1569330560
+	set cuda environment
+		torch.__version__              = 1.2.0
+		torch.version.cuda             = 10.0
+		torch.backends.cudnn.version() = 7401
+		os['CUDA_VISIBLE_DEVICES']     = 0
+		torch.cuda.device_count()      = 1
+
+
+
+	SEED         = 1569330560
+	PROJECT_PATH = E:\pycharm_project\LB 0.90161\code\dummy_11a\lib
+	__file__     = E:/pycharm_project/LB 0.90161/code/dummy_11a/resent34_cls_01/train.py
+	out_dir      = E:/pycharm_project/LB 0.90161/result/resnet34-cls-full-foldb0-0
+
+** dataset setting **
+batch_size = 16
+train_dataset : 
+	mode    = train
+	split   = ['train_b1_11568.npy']
+	csv     = ['train.csv']
+		len   = 11568
+		num   = 46272
+		neg   = 39737  0.859
+		pos   =  6535  0.141
+		pos1  =   830  0.072  0.127
+		pos2  =   224  0.019  0.034
+		pos3  =  4750  0.411  0.727
+		pos4  =   731  0.063  0.112
+
+valid_dataset : 
+	mode    = train
+	split   = ['valid_b1_1000.npy']
+	csv     = ['train.csv']
+		len   =  1000
+		num   =  4000
+		neg   =  3440  0.860
+		pos   =   560  0.140
+		pos1  =    67  0.067  0.120
+		pos2  =    23  0.023  0.041
+		pos3  =   400  0.400  0.714
+		pos4  =    70  0.070  0.125
+
+
+** net setting **
+	initial_checkpoint = E:/pycharm_project/LB 0.90161/result/resnet34-cls-full-foldb0-0/checkpoint/00007500_model.pth
+<class 'model.Net'>
+
+optimizer
+  SGD (
+Parameter Group 0
+    dampening: 0
+    lr: 0.001
+    momentum: 0.9
+    nesterov: False
+    weight_decay: 0.0001
+)
+schduler
+  NullScheduler
+lr=0.00100 
+
+** start training here! **
+   batch_size=16,  iter_accum=1
+   experiment  = resent34_cls_01
+                      |--------------- VALID-----------------|---------------------- TRAIN/BATCH ------------------
+rate     iter   epoch |  loss    tn, [tp1,tp2,tp3,tp4]       |  loss    tn, [tp1,tp2,tp3,tp4]       | time        
+--------------------------------------------------------------------------------------------------------------------

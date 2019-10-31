@@ -1,0 +1,99 @@
+--- [START 2019-09-11_18-00-56] ----------------------------------------------------------------
+
+	@common.py:  
+	set random seed
+		SEED = 1568196057
+	set cuda environment
+		torch.__version__              = 1.2.0
+		torch.version.cuda             = 9.2.148
+		torch.backends.cudnn.version() = 7602
+		os['CUDA_VISIBLE_DEVICES']     = 0
+		torch.cuda.device_count()      = 1
+
+
+
+	SEED         = 1568196057
+	PROJECT_PATH = /root/share/project/kaggle/2019/steel/delivery/20190910/code/dummy_11a
+	__file__     = /root/share/project/kaggle/2019/steel/delivery/20190910/code/dummy_11a/resent34_cls_01/submit.py
+	out_dir      = /root/share/project/kaggle/2019/steel/result1/resnet34-cls-full-foldb0-0
+
+** dataset setting **
+test_dataset : 
+	mode    = train
+	split   = ['valid_b0_1000.npy']
+	csv     = ['train.csv']
+		len   =  1000
+		num   =  4000
+		neg   =  3447  0.862
+		pos   =   553  0.138
+		pos1  =    74  0.074  0.134
+		pos2  =    18  0.018  0.033
+		pos3  =   403  0.403  0.729
+		pos4  =    58  0.058  0.105
+
+
+** net setting **
+	initial_checkpoint = /root/share/project/kaggle/2019/steel/result1/resnet34-cls-full-foldb0-0/checkpoint/00007500_model.pth
+<class 'model.Net'>
+
+submitting .... @ ['null']
+threshold_label = [0.5, 0.5, 0.5, 0.5]
+
+
+* image level metric *
+recall
+[0.985 0.878 0.944 0.945 0.948]
+precision
+[0.963 0.97  0.895 0.972 1.   ]
+
+kaggle = 0.97835 @ dice1.000
+       = 0.94478 @ dice0.750
+       = 0.91121 @ dice0.500
+
+
+--- [START 2019-09-11_18-01-40] ----------------------------------------------------------------
+
+	@common.py:  
+	set random seed
+		SEED = 1568196101
+	set cuda environment
+		torch.__version__              = 1.2.0
+		torch.version.cuda             = 9.2.148
+		torch.backends.cudnn.version() = 7602
+		os['CUDA_VISIBLE_DEVICES']     = 0
+		torch.cuda.device_count()      = 1
+
+
+
+	SEED         = 1568196101
+	PROJECT_PATH = /root/share/project/kaggle/2019/steel/delivery/20190910/code/dummy_11a
+	__file__     = /root/share/project/kaggle/2019/steel/delivery/20190910/code/dummy_11a/resent34_cls_01/submit.py
+	out_dir      = /root/share/project/kaggle/2019/steel/result1/resnet34-cls-full-foldb0-0
+
+** dataset setting **
+test_dataset : 
+	mode    = test
+	split   = ['test_1801.npy']
+	csv     = ['sample_submission.csv']
+		len   =  1801
+
+
+** net setting **
+	initial_checkpoint = /root/share/project/kaggle/2019/steel/result1/resnet34-cls-full-foldb0-0/checkpoint/00007500_model.pth
+<class 'model.Net'>
+
+submitting .... @ ['null']
+threshold_label = [0.5, 0.5, 0.5, 0.5]
+
+test submission .... @ ['null']
+
+compare with LB probing ... 
+		num_image =  1801(1801) 
+		num  =  7204(7204) 
+		neg  =  6267(6172)  0.870 
+		pos  =   937(1032)  0.130 
+		pos1 =   141( 128)  0.078  0.150 
+		pos2 =    38(  43)  0.021  0.041 
+		pos3 =   636( 741)  0.353  0.679 
+		pos4 =   122( 120)  0.068  0.130 
+ 

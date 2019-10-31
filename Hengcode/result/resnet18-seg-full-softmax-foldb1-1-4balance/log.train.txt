@@ -1,0 +1,713 @@
+
+--- [START 2019-09-24_09-49-09] ----------------------------------------------------------------
+
+	@common.py:  
+	set random seed
+		SEED = 1569289750
+	set cuda environment
+		torch.__version__              = 1.2.0
+		torch.version.cuda             = 10.0
+		torch.backends.cudnn.version() = 7401
+		os['CUDA_VISIBLE_DEVICES']     = 0
+		torch.cuda.device_count()      = 1
+
+
+
+	SEED         = 1569289750
+	PROJECT_PATH = E:\pycharm_project\LB 0.90161\code\dummy_11a\lib
+	__file__     = E:/pycharm_project/LB 0.90161/code/dummy_11a/resnet18_unet_softmax_01/train.py
+	out_dir      = E:/pycharm_project/LB 0.90161/result/resnet18-seg-full-softmax-foldb1-1-4balance
+
+** dataset setting **
+batch_size = 8
+train_dataset : 
+	mode    = train
+	split   = ['train_b1_11568.npy']
+	csv     = ['train.csv']
+		len   = 11568
+		num   = 46272
+		neg   = 39737  0.859
+		pos   =  6535  0.141
+		pos1  =   830  0.072  0.127
+		pos2  =   224  0.019  0.034
+		pos3  =  4750  0.411  0.727
+		pos4  =   731  0.063  0.112
+
+valid_dataset : 
+	mode    = train
+	split   = ['valid_b1_1000.npy']
+	csv     = ['train.csv']
+		len   =  1000
+		num   =  4000
+		neg   =  3440  0.860
+		pos   =   560  0.140
+		pos1  =    67  0.067  0.120
+		pos2  =    23  0.023  0.041
+		pos3  =   400  0.400  0.714
+		pos4  =    70  0.070  0.125
+
+
+** net setting **
+	initial_checkpoint = E:/pycharm_project/LB 0.90161/result/resnet18-seg-full-softmax-foldb1-1-4balance/checkpoint/00114000_model.pth
+<class 'model.Net'>
+	loss_weight = None
+	train_loader.sampler = <dataset.FourBalanceClassSampler object at 0x00000294826675F8>
+
+optimizer
+  SGD (
+Parameter Group 0
+    dampening: 0
+    lr: 0.001
+    momentum: 0.9
+    nesterov: False
+    weight_decay: 0.0001
+)
+schduler
+  NullScheduler
+lr=0.00100 
+
+** start training here! **
+   batch_size=8,  iter_accum=4
+   experiment  = resnet18_unet_softmax_01
+                      |-------------------------------- VALID-----------------------------|---------- TRAIN/BATCH ------------------------------
+rate     iter   epoch |  loss    hit_neg,pos1,2,3,4           dice_neg,pos1,2,3,4         |  loss    hit_neg,pos1,2,3,4          | time         
+------------------------------------------------------------------------------------------------------------------------------------------------
+
+--- [START 2019-09-24_09-50-28] ----------------------------------------------------------------
+
+	@common.py:  
+	set random seed
+		SEED = 1569289829
+	set cuda environment
+		torch.__version__              = 1.2.0
+		torch.version.cuda             = 10.0
+		torch.backends.cudnn.version() = 7401
+		os['CUDA_VISIBLE_DEVICES']     = 0
+		torch.cuda.device_count()      = 1
+
+
+
+	SEED         = 1569289829
+	PROJECT_PATH = E:\pycharm_project\LB 0.90161\code\dummy_11a\lib
+	__file__     = E:/pycharm_project/LB 0.90161/code/dummy_11a/resnet18_unet_softmax_01/train.py
+	out_dir      = E:/pycharm_project/LB 0.90161/result/resnet18-seg-full-softmax-foldb1-1-4balance
+
+** dataset setting **
+batch_size = 8
+train_dataset : 
+	mode    = train
+	split   = ['train_b1_11568.npy']
+	csv     = ['train.csv']
+		len   = 11568
+		num   = 46272
+		neg   = 39737  0.859
+		pos   =  6535  0.141
+		pos1  =   830  0.072  0.127
+		pos2  =   224  0.019  0.034
+		pos3  =  4750  0.411  0.727
+		pos4  =   731  0.063  0.112
+
+valid_dataset : 
+	mode    = train
+	split   = ['valid_b1_1000.npy']
+	csv     = ['train.csv']
+		len   =  1000
+		num   =  4000
+		neg   =  3440  0.860
+		pos   =   560  0.140
+		pos1  =    67  0.067  0.120
+		pos2  =    23  0.023  0.041
+		pos3  =   400  0.400  0.714
+		pos4  =    70  0.070  0.125
+
+
+** net setting **
+	initial_checkpoint = E:/pycharm_project/LB 0.90161/result/resnet18-seg-full-softmax-foldb1-1-4balance/checkpoint/00114000_model.pth
+<class 'model.Net'>
+	loss_weight = None
+	train_loader.sampler = <dataset.FourBalanceClassSampler object at 0x000002752E6975F8>
+
+optimizer
+  SGD (
+Parameter Group 0
+    dampening: 0
+    lr: 0.001
+    momentum: 0.9
+    nesterov: False
+    weight_decay: 0.0001
+)
+schduler
+  NullScheduler
+lr=0.00100 
+
+** start training here! **
+   batch_size=8,  iter_accum=4
+   experiment  = resnet18_unet_softmax_01
+                      |-------------------------------- VALID-----------------------------|---------- TRAIN/BATCH ------------------------------
+rate     iter   epoch |  loss    hit_neg,pos1,2,3,4           dice_neg,pos1,2,3,4         |  loss    hit_neg,pos1,2,3,4          | time         
+------------------------------------------------------------------------------------------------------------------------------------------------
+
+--- [START 2019-09-24_09-51-50] ----------------------------------------------------------------
+
+	@common.py:  
+	set random seed
+		SEED = 1569289911
+	set cuda environment
+		torch.__version__              = 1.2.0
+		torch.version.cuda             = 10.0
+		torch.backends.cudnn.version() = 7401
+		os['CUDA_VISIBLE_DEVICES']     = 0
+		torch.cuda.device_count()      = 1
+
+
+
+	SEED         = 1569289911
+	PROJECT_PATH = E:\pycharm_project\LB 0.90161\code\dummy_11a\lib
+	__file__     = E:/pycharm_project/LB 0.90161/code/dummy_11a/resnet18_unet_softmax_01/train.py
+	out_dir      = E:/pycharm_project/LB 0.90161/result/resnet18-seg-full-softmax-foldb1-1-4balance
+
+** dataset setting **
+batch_size = 8
+train_dataset : 
+	mode    = train
+	split   = ['train_b1_11568.npy']
+	csv     = ['train.csv']
+		len   = 11568
+		num   = 46272
+		neg   = 39737  0.859
+		pos   =  6535  0.141
+		pos1  =   830  0.072  0.127
+		pos2  =   224  0.019  0.034
+		pos3  =  4750  0.411  0.727
+		pos4  =   731  0.063  0.112
+
+valid_dataset : 
+	mode    = train
+	split   = ['valid_b1_1000.npy']
+	csv     = ['train.csv']
+		len   =  1000
+		num   =  4000
+		neg   =  3440  0.860
+		pos   =   560  0.140
+		pos1  =    67  0.067  0.120
+		pos2  =    23  0.023  0.041
+		pos3  =   400  0.400  0.714
+		pos4  =    70  0.070  0.125
+
+
+** net setting **
+	initial_checkpoint = E:/pycharm_project/LB 0.90161/result/resnet18-seg-full-softmax-foldb1-1-4balance/checkpoint/00114000_model.pth
+<class 'model.Net'>
+	loss_weight = None
+	train_loader.sampler = <dataset.FourBalanceClassSampler object at 0x0000023C5ABB75F8>
+
+optimizer
+  SGD (
+Parameter Group 0
+    dampening: 0
+    lr: 0.001
+    momentum: 0.9
+    nesterov: False
+    weight_decay: 0.0001
+)
+schduler
+  NullScheduler
+lr=0.00100 
+
+** start training here! **
+   batch_size=8,  iter_accum=4
+   experiment  = resnet18_unet_softmax_01
+                      |-------------------------------- VALID-----------------------------|---------- TRAIN/BATCH ------------------------------
+rate     iter   epoch |  loss    hit_neg,pos1,2,3,4           dice_neg,pos1,2,3,4         |  loss    hit_neg,pos1,2,3,4          | time         
+------------------------------------------------------------------------------------------------------------------------------------------------
+0.00000    0.0*   0.0 |  0.042   0.99 [0.53,0.61,0.73,0.76]   0.97 [0.57,0.59,0.70,0.77]  |  0.000   0.00 [0.00,0.00,0.00,0.00]  |  0 hr 02 min
+
+--- [START 2019-09-24_15-48-34] ----------------------------------------------------------------
+
+	@common.py:  
+	set random seed
+		SEED = 1569311315
+	set cuda environment
+		torch.__version__              = 1.2.0
+		torch.version.cuda             = 10.0
+		torch.backends.cudnn.version() = 7401
+		os['CUDA_VISIBLE_DEVICES']     = 0
+		torch.cuda.device_count()      = 1
+
+
+
+	SEED         = 1569311315
+	PROJECT_PATH = E:\pycharm_project\LB 0.90161\code\dummy_11a\lib
+	__file__     = E:/pycharm_project/LB 0.90161/code/dummy_11a/resnet18_unet_softmax_01/train.py
+	out_dir      = E:/pycharm_project/LB 0.90161/result/resnet18-seg-full-softmax-foldb1-1-4balance
+
+** dataset setting **
+batch_size = 8
+train_dataset : 
+	mode    = train
+	split   = ['train_b1_11568.npy']
+	csv     = ['train.csv']
+		len   = 11568
+		num   = 46272
+		neg   = 39737  0.859
+		pos   =  6535  0.141
+		pos1  =   830  0.072  0.127
+		pos2  =   224  0.019  0.034
+		pos3  =  4750  0.411  0.727
+		pos4  =   731  0.063  0.112
+
+valid_dataset : 
+	mode    = train
+	split   = ['valid_b1_1000.npy']
+	csv     = ['train.csv']
+		len   =  1000
+		num   =  4000
+		neg   =  3440  0.860
+		pos   =   560  0.140
+		pos1  =    67  0.067  0.120
+		pos2  =    23  0.023  0.041
+		pos3  =   400  0.400  0.714
+		pos4  =    70  0.070  0.125
+
+
+** net setting **
+	initial_checkpoint = E:/pycharm_project/LB 0.90161/result/resnet18-seg-full-softmax-foldb1-1-4balance/checkpoint/00114000_model.pth
+<class 'model.Net'>
+	loss_weight = None
+	train_loader.sampler = <dataset.FourBalanceClassSampler object at 0x00000219F25E75F8>
+
+optimizer
+  SGD (
+Parameter Group 0
+    dampening: 0
+    lr: 0.001
+    momentum: 0.9
+    nesterov: False
+    weight_decay: 0.0001
+)
+schduler
+  NullScheduler
+lr=0.00100 
+
+** start training here! **
+   batch_size=8,  iter_accum=4
+   experiment  = resnet18_unet_softmax_01
+                      |-------------------------------- VALID-----------------------------|---------- TRAIN/BATCH ------------------------------
+rate     iter   epoch |  loss    hit_neg,pos1,2,3,4           dice_neg,pos1,2,3,4         |  loss    hit_neg,pos1,2,3,4          | time         
+------------------------------------------------------------------------------------------------------------------------------------------------
+0.00000    0.0*   0.0 |  0.042   0.99 [0.53,0.61,0.73,0.76]   0.97 [0.57,0.59,0.70,0.77]  |  0.000   0.00 [0.00,0.00,0.00,0.00]  |  0 hr 02 min
+
+--- [START 2019-09-24_16-00-16] ----------------------------------------------------------------
+
+	@common.py:  
+	set random seed
+		SEED = 1569312017
+	set cuda environment
+		torch.__version__              = 1.2.0
+		torch.version.cuda             = 10.0
+		torch.backends.cudnn.version() = 7401
+		os['CUDA_VISIBLE_DEVICES']     = 0
+		torch.cuda.device_count()      = 1
+
+
+
+	SEED         = 1569312017
+	PROJECT_PATH = E:\pycharm_project\LB 0.90161\code\dummy_11a\lib
+	__file__     = E:/pycharm_project/LB 0.90161/code/dummy_11a/resnet18_unet_softmax_01/train.py
+	out_dir      = E:/pycharm_project/LB 0.90161/result/resnet18-seg-full-softmax-foldb1-1-4balance
+
+** dataset setting **
+batch_size = 8
+train_dataset : 
+	mode    = train
+	split   = ['train_b1_11568.npy']
+	csv     = ['train.csv']
+		len   = 11568
+		num   = 46272
+		neg   = 39737  0.859
+		pos   =  6535  0.141
+		pos1  =   830  0.072  0.127
+		pos2  =   224  0.019  0.034
+		pos3  =  4750  0.411  0.727
+		pos4  =   731  0.063  0.112
+
+valid_dataset : 
+	mode    = train
+	split   = ['valid_b1_1000.npy']
+	csv     = ['train.csv']
+		len   =  1000
+		num   =  4000
+		neg   =  3440  0.860
+		pos   =   560  0.140
+		pos1  =    67  0.067  0.120
+		pos2  =    23  0.023  0.041
+		pos3  =   400  0.400  0.714
+		pos4  =    70  0.070  0.125
+
+
+** net setting **
+	initial_checkpoint = E:/pycharm_project/LB 0.90161/result/resnet18-seg-full-softmax-foldb1-1-4balance/checkpoint/00114000_model.pth
+<class 'model.Net'>
+	loss_weight = None
+	train_loader.sampler = <dataset.FourBalanceClassSampler object at 0x000002259CF333C8>
+
+optimizer
+  SGD (
+Parameter Group 0
+    dampening: 0
+    lr: 0.001
+    momentum: 0.9
+    nesterov: False
+    weight_decay: 0.0001
+)
+schduler
+  NullScheduler
+lr=0.00100 
+
+** start training here! **
+   batch_size=8,  iter_accum=4
+   experiment  = resnet18_unet_softmax_01
+                      |-------------------------------- VALID-----------------------------|---------- TRAIN/BATCH ------------------------------
+rate     iter   epoch |  loss    hit_neg,pos1,2,3,4           dice_neg,pos1,2,3,4         |  loss    hit_neg,pos1,2,3,4          | time         
+------------------------------------------------------------------------------------------------------------------------------------------------
+
+--- [START 2019-09-24_16-01-31] ----------------------------------------------------------------
+
+	@common.py:  
+	set random seed
+		SEED = 1569312092
+	set cuda environment
+		torch.__version__              = 1.2.0
+		torch.version.cuda             = 10.0
+		torch.backends.cudnn.version() = 7401
+		os['CUDA_VISIBLE_DEVICES']     = 0
+		torch.cuda.device_count()      = 1
+
+
+
+	SEED         = 1569312092
+	PROJECT_PATH = E:\pycharm_project\LB 0.90161\code\dummy_11a\lib
+	__file__     = E:/pycharm_project/LB 0.90161/code/dummy_11a/resnet18_unet_softmax_01/train.py
+	out_dir      = E:/pycharm_project/LB 0.90161/result/resnet18-seg-full-softmax-foldb1-1-4balance
+
+** dataset setting **
+batch_size = 8
+train_dataset : 
+	mode    = train
+	split   = ['train_b1_11568.npy']
+	csv     = ['train.csv']
+		len   = 11568
+		num   = 46272
+		neg   = 39737  0.859
+		pos   =  6535  0.141
+		pos1  =   830  0.072  0.127
+		pos2  =   224  0.019  0.034
+		pos3  =  4750  0.411  0.727
+		pos4  =   731  0.063  0.112
+
+valid_dataset : 
+	mode    = train
+	split   = ['valid_b1_1000.npy']
+	csv     = ['train.csv']
+		len   =  1000
+		num   =  4000
+		neg   =  3440  0.860
+		pos   =   560  0.140
+		pos1  =    67  0.067  0.120
+		pos2  =    23  0.023  0.041
+		pos3  =   400  0.400  0.714
+		pos4  =    70  0.070  0.125
+
+
+** net setting **
+	initial_checkpoint = E:/pycharm_project/LB 0.90161/result/resnet18-seg-full-softmax-foldb1-1-4balance/checkpoint/00114000_model.pth
+<class 'model.Net'>
+	loss_weight = None
+	train_loader.sampler = <dataset.FourBalanceClassSampler object at 0x0000028C59C033C8>
+
+optimizer
+  SGD (
+Parameter Group 0
+    dampening: 0
+    lr: 0.001
+    momentum: 0.9
+    nesterov: False
+    weight_decay: 0.0001
+)
+schduler
+  NullScheduler
+lr=0.00100 
+
+** start training here! **
+   batch_size=8,  iter_accum=4
+   experiment  = resnet18_unet_softmax_01
+                      |-------------------------------- VALID-----------------------------|---------- TRAIN/BATCH ------------------------------
+rate     iter   epoch |  loss    hit_neg,pos1,2,3,4           dice_neg,pos1,2,3,4         |  loss    hit_neg,pos1,2,3,4          | time         
+------------------------------------------------------------------------------------------------------------------------------------------------
+
+--- [START 2019-09-24_16-03-10] ----------------------------------------------------------------
+
+	@common.py:  
+	set random seed
+		SEED = 1569312190
+	set cuda environment
+		torch.__version__              = 1.2.0
+		torch.version.cuda             = 10.0
+		torch.backends.cudnn.version() = 7401
+		os['CUDA_VISIBLE_DEVICES']     = 0
+		torch.cuda.device_count()      = 1
+
+
+
+	SEED         = 1569312190
+	PROJECT_PATH = E:\pycharm_project\LB 0.90161\code\dummy_11a\lib
+	__file__     = E:/pycharm_project/LB 0.90161/code/dummy_11a/resnet18_unet_softmax_01/train.py
+	out_dir      = E:/pycharm_project/LB 0.90161/result/resnet18-seg-full-softmax-foldb1-1-4balance
+
+** dataset setting **
+batch_size = 8
+train_dataset : 
+	mode    = train
+	split   = ['train_b1_11568.npy']
+	csv     = ['train.csv']
+		len   = 11568
+		num   = 46272
+		neg   = 39737  0.859
+		pos   =  6535  0.141
+		pos1  =   830  0.072  0.127
+		pos2  =   224  0.019  0.034
+		pos3  =  4750  0.411  0.727
+		pos4  =   731  0.063  0.112
+
+valid_dataset : 
+	mode    = train
+	split   = ['valid_b1_1000.npy']
+	csv     = ['train.csv']
+		len   =  1000
+		num   =  4000
+		neg   =  3440  0.860
+		pos   =   560  0.140
+		pos1  =    67  0.067  0.120
+		pos2  =    23  0.023  0.041
+		pos3  =   400  0.400  0.714
+		pos4  =    70  0.070  0.125
+
+
+** net setting **
+	initial_checkpoint = E:/pycharm_project/LB 0.90161/result/resnet18-seg-full-softmax-foldb1-1-4balance/checkpoint/00114000_model.pth
+<class 'model.Net'>
+	loss_weight = [5, 5, 2, 5]
+	train_loader.sampler = <dataset.FourBalanceClassSampler object at 0x00000173900D33C8>
+
+optimizer
+  SGD (
+Parameter Group 0
+    dampening: 0
+    lr: 0.001
+    momentum: 0.9
+    nesterov: False
+    weight_decay: 0.0001
+)
+schduler
+  NullScheduler
+lr=0.00100 
+
+** start training here! **
+   batch_size=8,  iter_accum=4
+   experiment  = resnet18_unet_softmax_01
+                      |-------------------------------- VALID-----------------------------|---------- TRAIN/BATCH ------------------------------
+rate     iter   epoch |  loss    hit_neg,pos1,2,3,4           dice_neg,pos1,2,3,4         |  loss    hit_neg,pos1,2,3,4          | time         
+------------------------------------------------------------------------------------------------------------------------------------------------
+0.00000    0.0*   0.0 |  0.042   0.99 [0.53,0.61,0.73,0.76]   0.97 [0.57,0.59,0.70,0.77]  |  0.000   0.00 [0.00,0.00,0.00,0.00]  |  0 hr 01 min
+0.00100    0.5    0.3 |  0.042   0.99 [0.53,0.61,0.73,0.76]   0.97 [0.57,0.59,0.70,0.77]  |  0.048   0.99 [0.83,0.92,0.90,0.97]  |  0 hr 04 min
+0.00100    1.0    0.7 |  0.042   0.99 [0.53,0.61,0.73,0.76]   0.97 [0.57,0.59,0.70,0.77]  |  0.046   0.99 [0.83,0.90,0.84,0.97]  |  0 hr 07 min
+0.00100    1.5*   1.0 |  0.044   0.99 [0.77,0.74,0.79,0.86]   0.95 [0.60,0.57,0.71,0.78]  |  0.052   0.99 [0.83,0.91,0.89,0.97]  |  0 hr 11 min
+0.00100    2.0    1.4 |  0.044   0.99 [0.77,0.74,0.79,0.86]   0.95 [0.60,0.57,0.71,0.78]  |  0.048   0.99 [0.85,0.92,0.91,0.96]  |  0 hr 14 min
+0.00100    2.5    1.7 |  0.044   0.99 [0.77,0.74,0.79,0.86]   0.95 [0.60,0.57,0.71,0.78]  |  0.050   0.99 [0.84,0.93,0.88,0.97]  |  0 hr 17 min
+0.00100    3.0*   2.1 |  0.045   0.99 [0.77,0.76,0.81,0.87]   0.95 [0.61,0.58,0.71,0.77]  |  0.047   0.99 [0.83,0.90,0.90,0.98]  |  0 hr 21 min
+0.00100    3.5    2.4 |  0.045   0.99 [0.77,0.76,0.81,0.87]   0.95 [0.61,0.58,0.71,0.77]  |  0.051   0.99 [0.85,0.90,0.87,0.96]  |  0 hr 24 min
+0.00100    4.0    2.8 |  0.045   0.99 [0.77,0.76,0.81,0.87]   0.95 [0.61,0.58,0.71,0.77]  |  0.047   0.99 [0.86,0.93,0.89,0.97]  |  0 hr 27 min
+0.00100    4.5*   3.1 |  0.044   0.99 [0.76,0.71,0.80,0.86]   0.95 [0.60,0.58,0.71,0.78]  |  0.048   0.99 [0.86,0.94,0.90,0.96]  |  0 hr 31 min
+0.00100    5.0    3.5 |  0.044   0.99 [0.76,0.71,0.80,0.86]   0.95 [0.60,0.58,0.71,0.78]  |  0.046   0.99 [0.84,0.92,0.86,0.96]  |  0 hr 34 min
+0.00100    5.5    3.8 |  0.044   0.99 [0.76,0.71,0.80,0.86]   0.95 [0.60,0.58,0.71,0.78]  |  0.049   0.99 [0.85,0.92,0.87,0.96]  |  0 hr 37 min
+0.00100    6.0*   4.1 |  0.044   0.99 [0.75,0.72,0.78,0.86]   0.95 [0.61,0.59,0.71,0.77]  |  0.048   0.99 [0.88,0.92,0.89,0.97]  |  0 hr 41 min
+0.00100    6.5    4.5 |  0.044   0.99 [0.75,0.72,0.78,0.86]   0.95 [0.61,0.59,0.71,0.77]  |  0.047   0.99 [0.81,0.91,0.88,0.96]  |  0 hr 44 min
+0.00100    7.0    4.8 |  0.044   0.99 [0.75,0.72,0.78,0.86]   0.95 [0.61,0.59,0.71,0.77]  |  0.051   0.99 [0.81,0.91,0.89,0.96]  |  0 hr 47 min
+
+--- [START 2019-09-24_16-59-20] ----------------------------------------------------------------
+
+	@common.py:  
+	set random seed
+		SEED = 1569315561
+	set cuda environment
+		torch.__version__              = 1.2.0
+		torch.version.cuda             = 10.0
+		torch.backends.cudnn.version() = 7401
+		os['CUDA_VISIBLE_DEVICES']     = 0
+		torch.cuda.device_count()      = 1
+
+
+
+	SEED         = 1569315561
+	PROJECT_PATH = E:\pycharm_project\LB 0.90161\code\dummy_11a\lib
+	__file__     = E:/pycharm_project/LB 0.90161/code/dummy_11a/resnet18_unet_softmax_01/train.py
+	out_dir      = E:/pycharm_project/LB 0.90161/result/resnet18-seg-full-softmax-foldb1-1-4balance
+
+** dataset setting **
+batch_size = 8
+train_dataset : 
+	mode    = train
+	split   = ['train_b1_11568.npy']
+	csv     = ['train.csv']
+		len   = 11568
+		num   = 46272
+		neg   = 39737  0.859
+		pos   =  6535  0.141
+		pos1  =   830  0.072  0.127
+		pos2  =   224  0.019  0.034
+		pos3  =  4750  0.411  0.727
+		pos4  =   731  0.063  0.112
+
+valid_dataset : 
+	mode    = train
+	split   = ['valid_b1_1000.npy']
+	csv     = ['train.csv']
+		len   =  1000
+		num   =  4000
+		neg   =  3440  0.860
+		pos   =   560  0.140
+		pos1  =    67  0.067  0.120
+		pos2  =    23  0.023  0.041
+		pos3  =   400  0.400  0.714
+		pos4  =    70  0.070  0.125
+
+
+** net setting **
+	initial_checkpoint = E:/pycharm_project/LB 0.90161/result/resnet18-seg-full-softmax-foldb1-1-4balance/checkpoint/00114000_model.pth
+<class 'model.Net'>
+	loss_weight = None
+	train_loader.sampler = <dataset.FourBalanceClassSampler object at 0x00000235D71D33C8>
+
+optimizer
+  SGD (
+Parameter Group 0
+    dampening: 0
+    lr: 0.001
+    momentum: 0.9
+    nesterov: False
+    weight_decay: 0.0001
+)
+schduler
+  NullScheduler
+lr=0.00100 
+
+** start training here! **
+   batch_size=8,  iter_accum=4
+   experiment  = resnet18_unet_softmax_01
+                      |-------------------------------- VALID-----------------------------|---------- TRAIN/BATCH ------------------------------
+rate     iter   epoch |  loss    hit_neg,pos1,2,3,4           dice_neg,pos1,2,3,4         |  loss    hit_neg,pos1,2,3,4          | time         
+------------------------------------------------------------------------------------------------------------------------------------------------
+0.00000    0.0*   0.0 |  0.042   0.99 [0.53,0.61,0.73,0.76]   0.97 [0.57,0.59,0.70,0.77]  |  0.000   0.00 [0.00,0.00,0.00,0.00]  |  0 hr 01 min
+0.00100    0.5    0.3 |  0.042   0.99 [0.53,0.61,0.73,0.76]   0.97 [0.57,0.59,0.70,0.77]  |  0.024   1.00 [0.65,0.77,0.82,0.88]  |  0 hr 04 min
+0.00100    1.0    0.7 |  0.042   0.99 [0.53,0.61,0.73,0.76]   0.97 [0.57,0.59,0.70,0.77]  |  0.021   1.00 [0.61,0.78,0.82,0.87]  |  0 hr 07 min
+0.00100    1.5*   1.0 |  0.042   0.99 [0.55,0.62,0.72,0.74]   0.97 [0.59,0.61,0.69,0.76]  |  0.022   1.00 [0.60,0.77,0.81,0.90]  |  0 hr 11 min
+0.00100    2.0    1.4 |  0.042   0.99 [0.55,0.62,0.72,0.74]   0.97 [0.59,0.61,0.69,0.76]  |  0.026   1.00 [0.62,0.71,0.84,0.90]  |  0 hr 14 min
+0.00100    2.5    1.7 |  0.042   0.99 [0.55,0.62,0.72,0.74]   0.97 [0.59,0.61,0.69,0.76]  |  0.024   1.00 [0.69,0.78,0.81,0.89]  |  0 hr 17 min
+0.00100    3.0*   2.1 |  0.042   0.99 [0.52,0.60,0.72,0.75]   0.97 [0.58,0.61,0.69,0.77]  |  0.026   1.00 [0.63,0.76,0.82,0.91]  |  0 hr 21 min
+0.00100    3.5    2.4 |  0.042   0.99 [0.52,0.60,0.72,0.75]   0.97 [0.58,0.61,0.69,0.77]  |  0.024   1.00 [0.62,0.74,0.83,0.89]  |  0 hr 24 min
+0.00100    4.0    2.8 |  0.042   0.99 [0.52,0.60,0.72,0.75]   0.97 [0.58,0.61,0.69,0.77]  |  0.026   1.00 [0.64,0.75,0.84,0.91]  |  0 hr 27 min
+0.00100    4.5*   3.1 |  0.042   0.99 [0.54,0.63,0.73,0.76]   0.97 [0.58,0.61,0.70,0.77]  |  0.024   1.00 [0.62,0.77,0.81,0.91]  |  0 hr 31 min
+0.00100    5.0    3.5 |  0.042   0.99 [0.54,0.63,0.73,0.76]   0.97 [0.58,0.61,0.70,0.77]  |  0.024   1.00 [0.62,0.76,0.83,0.89]  |  0 hr 34 min
+0.00100    5.5    3.8 |  0.042   0.99 [0.54,0.63,0.73,0.76]   0.97 [0.58,0.61,0.70,0.77]  |  0.026   1.00 [0.60,0.75,0.84,0.90]  |  0 hr 37 min
+0.00100    6.0*   4.1 |  0.041   0.99 [0.56,0.62,0.73,0.75]   0.97 [0.60,0.60,0.70,0.77]  |  0.025   1.00 [0.63,0.79,0.82,0.89]  |  0 hr 41 min
+0.00100    6.5    4.5 |  0.041   0.99 [0.56,0.62,0.73,0.75]   0.97 [0.60,0.60,0.70,0.77]  |  0.025   1.00 [0.61,0.74,0.79,0.88]  |  0 hr 44 min
+0.00100    7.0    4.8 |  0.041   0.99 [0.56,0.62,0.73,0.75]   0.97 [0.60,0.60,0.70,0.77]  |  0.024   1.00 [0.61,0.75,0.83,0.91]  |  0 hr 47 min
+0.00100    7.5*   5.2 |  0.041   0.99 [0.54,0.60,0.73,0.74]   0.97 [0.59,0.59,0.70,0.76]  |  0.027   1.00 [0.62,0.76,0.84,0.89]  |  0 hr 51 min
+0.00100    8.0    5.5 |  0.041   0.99 [0.54,0.60,0.73,0.74]   0.97 [0.59,0.59,0.70,0.76]  |  0.027   1.00 [0.64,0.78,0.81,0.89]  |  0 hr 54 min
+0.00100    8.5    5.9 |  0.041   0.99 [0.54,0.60,0.73,0.74]   0.97 [0.59,0.59,0.70,0.76]  |  0.024   1.00 [0.62,0.76,0.83,0.90]  |  0 hr 57 min
+0.00100    9.0*   6.2 |  0.042   0.99 [0.53,0.60,0.72,0.75]   0.97 [0.58,0.60,0.70,0.77]  |  0.026   1.00 [0.59,0.76,0.84,0.88]  |  1 hr 01 min
+0.00100    9.5    6.6 |  0.042   0.99 [0.53,0.60,0.72,0.75]   0.97 [0.58,0.60,0.70,0.77]  |  0.024   1.00 [0.66,0.74,0.84,0.89]  |  1 hr 04 min
+0.00100   10.0    6.9 |  0.042   0.99 [0.53,0.60,0.72,0.75]   0.97 [0.58,0.60,0.70,0.77]  |  0.027   1.00 [0.65,0.77,0.83,0.90]  |  1 hr 07 min
+0.00100   10.5*   7.3 |  0.042   0.99 [0.56,0.60,0.72,0.77]   0.97 [0.60,0.60,0.70,0.78]  |  0.027   1.00 [0.64,0.78,0.82,0.87]  |  1 hr 12 min
+0.00100   11.0    7.6 |  0.042   0.99 [0.56,0.60,0.72,0.77]   0.97 [0.60,0.60,0.70,0.78]  |  0.023   1.00 [0.62,0.76,0.85,0.88]  |  1 hr 14 min
+0.00100   11.5    8.0 |  0.042   0.99 [0.56,0.60,0.72,0.77]   0.97 [0.60,0.60,0.70,0.78]  |  0.022   1.00 [0.63,0.77,0.83,0.89]  |  1 hr 17 min
+0.00100   12.0*   8.3 |  0.042   0.99 [0.56,0.60,0.72,0.76]   0.97 [0.60,0.59,0.70,0.77]  |  0.025   1.00 [0.64,0.74,0.84,0.90]  |  1 hr 22 min
+0.00100   12.5    8.6 |  0.042   0.99 [0.56,0.60,0.72,0.76]   0.97 [0.60,0.59,0.70,0.77]  |  0.027   1.00 [0.65,0.77,0.81,0.90]  |  1 hr 24 min
+0.00100   13.0    9.0 |  0.042   0.99 [0.56,0.60,0.72,0.76]   0.97 [0.60,0.59,0.70,0.77]  |  0.025   1.00 [0.64,0.78,0.83,0.90]  |  1 hr 27 min
+0.00100   13.5*   9.3 |  0.041   0.99 [0.57,0.61,0.72,0.74]   0.97 [0.60,0.60,0.70,0.76]  |  0.025   1.00 [0.60,0.78,0.79,0.90]  |  1 hr 32 min
+0.00100   14.0    9.7 |  0.041   0.99 [0.57,0.61,0.72,0.74]   0.97 [0.60,0.60,0.70,0.76]  |  0.024   1.00 [0.64,0.75,0.80,0.90]  |  1 hr 35 min
+0.00100   14.5   10.0 |  0.041   0.99 [0.57,0.61,0.72,0.74]   0.97 [0.60,0.60,0.70,0.76]  |  0.025   1.00 [0.62,0.76,0.85,0.90]  |  1 hr 37 min
+
+--- [START 2019-09-24_19-08-12] ----------------------------------------------------------------
+
+	@common.py:  
+	set random seed
+		SEED = 1569323293
+	set cuda environment
+		torch.__version__              = 1.2.0
+		torch.version.cuda             = 10.0
+		torch.backends.cudnn.version() = 7401
+		os['CUDA_VISIBLE_DEVICES']     = 0
+		torch.cuda.device_count()      = 1
+
+
+
+	SEED         = 1569323293
+	PROJECT_PATH = E:\pycharm_project\LB 0.90161\code\dummy_11a\lib
+	__file__     = E:/pycharm_project/LB 0.90161/code/dummy_11a/resnet18_unet_softmax_01/train.py
+	out_dir      = E:/pycharm_project/LB 0.90161/result/resnet18-seg-full-softmax-foldb1-1-4balance
+
+** dataset setting **
+batch_size = 8
+train_dataset : 
+	mode    = train
+	split   = ['train_b1_11568.npy']
+	csv     = ['train.csv']
+		len   = 11568
+		num   = 46272
+		neg   = 39737  0.859
+		pos   =  6535  0.141
+		pos1  =   830  0.072  0.127
+		pos2  =   224  0.019  0.034
+		pos3  =  4750  0.411  0.727
+		pos4  =   731  0.063  0.112
+
+valid_dataset : 
+	mode    = train
+	split   = ['valid_b1_1000.npy']
+	csv     = ['train.csv']
+		len   =  1000
+		num   =  4000
+		neg   =  3440  0.860
+		pos   =   560  0.140
+		pos1  =    67  0.067  0.120
+		pos2  =    23  0.023  0.041
+		pos3  =   400  0.400  0.714
+		pos4  =    70  0.070  0.125
+
+
+** net setting **
+	initial_checkpoint = E:/pycharm_project/LB 0.90161/result/resnet18-seg-full-softmax-foldb1-1-4balance/checkpoint/00114000_model.pth
+<class 'model.Net'>
+	loss_weight = None
+	train_loader.sampler = <dataset.FourBalanceClassSampler object at 0x000002C028AF0588>
+
+optimizer
+  SGD (
+Parameter Group 0
+    dampening: 0
+    lr: 0.001
+    momentum: 0.9
+    nesterov: False
+    weight_decay: 0.0001
+)
+schduler
+  NullScheduler
+lr=0.00100 
+
+** start training here! **
+   batch_size=8,  iter_accum=4
+   experiment  = resnet18_unet_softmax_01
+                      |-------------------------------- VALID-----------------------------|---------- TRAIN/BATCH ------------------------------
+rate     iter   epoch |  loss    hit_neg,pos1,2,3,4           dice_neg,pos1,2,3,4         |  loss    hit_neg,pos1,2,3,4          | time         
+------------------------------------------------------------------------------------------------------------------------------------------------
